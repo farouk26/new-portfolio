@@ -13,6 +13,16 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    colors: {
+      white: {
+        100: "#EEEEF2",
+        200: "#FFFFFF",
+      },
+      dark: {
+        100: "",
+        200: "",
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
