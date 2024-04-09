@@ -11,13 +11,13 @@ function Navbar() {
       </div>
 
       <div className="navbar-center">
-        <figure className="h-16">
+        <figure className="w-[3.8rem]">
           <Image
-            src={"/images/logo1.svg"}
+            src={"/images/logo2.png"}
             alt="logo"
             height={250}
             width={250}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-fit"
           />
         </figure>
       </div>
