@@ -7,7 +7,7 @@ function Header() {
         <h2 className="lg:text-3xl text-2xl font-semibold">
           Hello, I&apos;m Farouk
         </h2>
-        <h1 className="lg:text-7xl text-5xl font-semibold text-center w-full lg:w-fit">
+        <h1 className="xl:text-8xl text-5xl font-semibold text-center w-full lg:w-fit">
           Im bringing ideas to life with lasting impact
         </h1>
         <p className="text-xl w-full lg:w-1/2 text-center">
