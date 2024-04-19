@@ -1,3 +1,4 @@
+import Carousel from "@/components/Carousel"
 import Header from "@/components/Header"
 import Layout from "@/components/Layout"
 import Navbar from "@/components/Navbar"
@@ -11,6 +12,7 @@ export default function Home() {
           <Navbar />
           <Header />
           <Socials />
+          <Carousel />
         </div>
       </Layout>
     </main>
