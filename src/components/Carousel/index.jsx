@@ -4,11 +4,11 @@ import ProjectCard from "../Cards/ProjectCard"
 
 function Carousel() {
   return (
-    <section className="min-h-fit w-full bg-red-200 rounded-3xl flex lg:flex-col p-8 relative">
-      <div className="flex flex-row h-full w-full gap-3 bg-yellow-200">
+    <section className="min-h-fit w-full bg-red-200 rounded-3xl flex lg:flex-col lg:p-8 p-2 relative">
+      <div className="flex lg:flex-row flex-col h-full w-full gap-3 bg-yellow-200">
         {/* First Column */}
         <div className="h-full w-full flex flex-col gap-4">
-          <figure className="h-[30rem]">
+          <figure className="lg:h-[30rem] h-full">
             <Image
               alt="project-img"
               src="/images/project.png"
