@@ -9,7 +9,7 @@ function Navbar() {
     return classes.filter(Boolean).join(" ")
   }
   return (
-    <div className="navbar relative bg-white-200 rounded-full mt-6 px-6">
+    <div className="navbar bg-white-200 mb-5 rounded-full px-6 sticky top-[3%] z-50">
       <div className="navbar-start text-black flex gap-2 items-center w-full">
         <Menu as="div">
           <div>

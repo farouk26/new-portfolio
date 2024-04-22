@@ -13,6 +13,7 @@ export default function Home() {
           <Header />
           <Socials />
           <Carousel />
+          <div className="h-[55rem] bg-blue-400 w-full"></div>
         </div>
       </Layout>
     </main>

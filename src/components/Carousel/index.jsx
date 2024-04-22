@@ -4,23 +4,23 @@ import ProjectCard from "../Cards/ProjectCard"
 
 function Carousel() {
   return (
-    <section className="min-h-fit w-full bg-red-200 rounded-3xl flex lg:flex-col lg:p-8 p-2 relative">
-      <div className="flex lg:flex-row flex-col h-full w-full gap-3 bg-yellow-200">
+    <section className="min-h-fit w-full rounded-3xl flex lg:flex-col py-4">
+      <div className="flex lg:flex-row flex-col h-full w-full gap-4 relative">
         {/* First Column */}
-        <div className="h-full w-full flex flex-col gap-4">
-          <figure className="lg:h-[30rem] h-full">
+        <div className="h-full w-full flex flex-col gap-4 lg:sticky lg:top-[20%]">
+          <figure className="xl:h-[33rem] lg:h-[30rem] h-full">
             <Image
               alt="project-img"
-              src="/images/project.png"
+              src="/images/project1.png"
               priority
-              width={600}
-              height={600}
+              width={900}
+              height={900}
               className="w-full h-full object-cover object-center rounded-3xl shadow-md"
             />
           </figure>
         </div>
         {/* Second Column */}
-        <div className="min-h-fit w-full bg-blue-200 flex flex-col gap-4">
+        <div className="min-h-fit w-full flex flex-col gap-4">
           <ProjectCard
             title={"Unify."}
             description={
