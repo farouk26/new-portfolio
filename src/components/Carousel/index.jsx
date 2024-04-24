@@ -56,6 +56,19 @@ function Carousel() {
                 </div>
               </div>
             </div>
+            <div class="image-wrapper absolute-full" data-index="3">
+              <div class="mask-outer absolute-full">
+                <div class="mask-inner absolute-full">
+                  <Image
+                    alt="project-img"
+                    src="/images/neon.png"
+                    width={500}
+                    height={500}
+                    className="w-full h-full object-cover rounded-3xl"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         {/* Second Column */}
@@ -90,7 +103,7 @@ function Carousel() {
               date={"2023"}
             />
           </section>
-          <section class="content-wrapper" data-index="2">
+          <section class="content-wrapper" data-index="3">
             <ProjectCard
               title={"Unify."}
               description={
