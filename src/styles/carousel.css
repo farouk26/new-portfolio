@@ -14,7 +14,7 @@
   height: 100%;
 }
 .content-wrapper {
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.8s ease-out;
 }
 .content-wrapper.in-view {
@@ -25,17 +25,17 @@
 .image-wrapper .mask-outer {
   transform: translateY(100%);
   overflow: hidden;
-  transition: transform 0.95s ease-out 0.95s;
+  transition: transform 0.9s ease-out 0.9s;
 }
 .image-wrapper .mask-inner {
   transform: translateY(-100%);
-  transition: transform 0.95s ease-out 0.95s;
+  transition: transform 0.9s ease-out 0.9s;
 }
 .image-wrapper.show .mask-outer {
   transform: translateY(0);
-  transition: transform 0.95s ease-out 0.95s;
+  transition: transform 0.9s ease-out 0.9s;
 }
 .image-wrapper.show .mask-inner {
   transform: translateY(0);
-  transition: transform 0.95s ease-out 0.95s;
+  transition: transform 0.9s ease-out 0.9s;
 }

@@ -2,7 +2,7 @@ export default function animateProjects() {
   const options = {
     root: null, // use the viewport as the root
     rootMargin: "0px", // no margin
-    threshold: 0.6, // 60% of the target element must be visible
+    threshold: 0.5, // 60% of the target element must be visible
   }
 
   const imageWrappers = document.querySelectorAll(".left-side .image-wrapper")
