@@ -68,7 +68,7 @@ function Carousel() {
                 description={
                   "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quis quos harum vel veritatis modi libero nihil!"
                 }
-                websiteType={"Mini Game"}
+                websiteType={"Mini-Game"}
                 date={"2023"}
               />
             </section>
