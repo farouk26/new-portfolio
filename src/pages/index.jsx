@@ -1,3 +1,4 @@
+import AboutSection from "@/components/AboutSection"
 import MobileProjectCard from "@/components/Cards/MobileProjectCard"
 import Carousel from "@/components/Carousel"
 import Header from "@/components/Header"
@@ -15,7 +16,7 @@ export default function Home() {
           <Header />
           <Socials />
           <ProjectSection />
-          <div className="bg-red-300 h-[40rem] w-full"></div>
+          <AboutSection />
         </div>
       </Layout>
     </main>
