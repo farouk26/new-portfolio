@@ -72,11 +72,6 @@ function Carousel() {
           </section>
         </div>
       </div>
-      <div className="w-full lg:my-8 my-5 flex justify-center">
-        <button className="btn btn-outline border-black text-black uppercase rounded-full lg:w-[14rem] xl:w-[16rem] 2xl:w-[18rem] w-[60%]">
-          View More
-        </button>
-      </div>
     </div>
   )
 }
