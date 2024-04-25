@@ -8,9 +8,9 @@ function MobileProjectCard({ title, description, date, websiteType, Url }) {
         <Image
           alt="project-img"
           src={Url}
-          height={650}
-          width={650}
-          className="w-full object-cover rounded-3xl"
+          height={1080}
+          width={1080}
+          className="h-full w-full object-cover rounded-3xl"
         />
       </figure>
       <div className="min-h-fit w-full bg-white-200 rounded-3xl p-6 shadow-sm">

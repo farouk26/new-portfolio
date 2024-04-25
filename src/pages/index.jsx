@@ -32,7 +32,7 @@ export default function Home() {
               }
               date={"2023"}
               websiteType={"Community Sharing"}
-              Url={"/images/project2.png"}
+              Url={"/images/unify.png"}
             />
             <MobileProjectCard
               title={"Neon City"}
@@ -41,7 +41,7 @@ export default function Home() {
               }
               date={"2023"}
               websiteType={"Mini-Game"}
-              Url={"/images/project1.png"}
+              Url={"/images/neoncity.png"}
             />
             <MobileProjectCard
               title={"Reelio"}
@@ -50,7 +50,16 @@ export default function Home() {
               }
               date={"2023"}
               websiteType={"Movie Platform"}
-              Url={"/images/neon.png"}
+              Url={"/images/reelio.png"}
+            />
+            <MobileProjectCard
+              title={"Portfolio"}
+              description={
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus officiis nesciunt qui error corporis temporibus nemo? In."
+              }
+              date={"2023"}
+              websiteType={"Personal Template"}
+              Url={"/images/portfolio.png"}
             />
           </div>
           <div className="bg-red-300 h-[40rem] w-full"></div>

@@ -15,16 +15,16 @@ function Carousel() {
         <div class="left-side">
           <div class="sticky xl:h-[33rem] lg:h-[30rem] top-[15%]">
             <div class="image-wrapper absolute-full show" data-index="0">
-              <CarouselImage imgUrl={"/images/neon.png"} />
+              <CarouselImage imgUrl={"/images/unify.png"} />
             </div>
             <div class="image-wrapper absolute-full" data-index="1">
-              <CarouselImage imgUrl={"/images/project.png"} />
+              <CarouselImage imgUrl={"/images/reelio.png"} />
             </div>
             <div class="image-wrapper absolute-full" data-index="2">
-              <CarouselImage imgUrl={"/images/project1.png"} />
+              <CarouselImage imgUrl={"/images/neoncity.png"} />
             </div>
             <div class="image-wrapper absolute-full" data-index="3">
-              <CarouselImage imgUrl={"/images/project2.png"} />
+              <CarouselImage imgUrl={"/images/portfolio.png"} />
             </div>
           </div>
         </div>
@@ -62,11 +62,11 @@ function Carousel() {
           </section>
           <section class="content-wrapper" data-index="3">
             <ProjectCard
-              title={"Echo"}
+              title={"Portfolio"}
               description={
                 "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quis quos harum vel veritatis modi libero nihil!"
               }
-              websiteType={"E-commerce"}
+              websiteType={"Personal Template"}
               date={"2023"}
             />
           </section>

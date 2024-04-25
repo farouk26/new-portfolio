@@ -8,8 +8,8 @@ function CarouselImage({ imgUrl }) {
         <Image
           alt="project-img"
           src={imgUrl}
-          width={500}
-          height={500}
+          width={1080}
+          height={1080}
           className="w-full h-full object-cover rounded-3xl"
         />
       </div>
