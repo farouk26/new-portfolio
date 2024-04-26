@@ -17,29 +17,30 @@ function AboutSection() {
         </p>
       </div>
       <div className="min-h-fit flex xl:flex-row flex-col xl:gap-4 gap-6 w-full">
-        <div className="min-h-fit w-full bg-white-200 rounded-3xl flex flex-col gap-4 p-4 xl:p-6">
-          <div className="flex flex-col gap-6 xl:p-4 p-2 w-full">
-            <h2 className="2xl:text-5xl xl:text-4xl lg:text-3xl text-2xl font-[500] text-black lg:w-[90%] xl:w-[80%]">
-              Passionate versatile front-end web developer and pixel perfect guy
+        <div className="min-h-fit w-full bg-white-200 rounded-3xl flex flex-col gap-2 p-4 xl:p-6 2xl:justify-center">
+          <div className="flex flex-col gap-4 xl:p-4 p-2 w-full">
+            <h2 className="3xl:text-5xl xl:text-4xl lg:text-3xl text-2xl font-[500] text-black lg:w-[90%] xl:w-[85%]">
+              Passionate versatile front-end web developer and pixel perfect
+              guy.
             </h2>
-            <p className="2xl:text-2xl xl:text-lg text-md font-[400] text-black">
-              A front-end web developer with a unique background in
+            <p className="3xl:text-xl 2xl:text-lg text-md font-[400] text-black">
+              I&apos;m a front-end web developer with a unique background in
               phytopathology, specializing in creating user-centric,
               aesthetically pleasing web interfaces. Committed to teamwork and
               lifelong learning, I also maintain an active interest in gaming,
-              fitness, and tech trends.
+              and tech trends.
             </p>
           </div>
           <div className="w-full flex md:flex-row flex-col items-center gap-4 xl:p-4 p-2">
-            <button className="btn 2xl:w-[17rem] xl:w-[15rem] lg:w-[13rem] md:w-1/3 w-full uppercase font-[500] text-white-200 bg-dark-100 rounded-full">
+            <button className="btn 2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-full uppercase font-[500] text-white-200 bg-dark-100 rounded-full">
               Download Resume
             </button>
-            <button className="btn 2xl:w-[17rem] xl:w-[15rem] lg:w-[13rem] md:w-1/3 w-full btn-outline font-[500] border-dark-100 text-black uppercase rounded-full">
+            <button className="btn 2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-full btn-outline font-[500] border-dark-100 text-black uppercase rounded-full">
               More About Me
             </button>
           </div>
         </div>
-        <figure className="xl:w-[60%] w-full">
+        <figure className="xl:w-[63%] w-full">
           <Image
             alt="avatar-image"
             src="/images/avatar.jpg"
@@ -53,21 +54,19 @@ function AboutSection() {
         <InfoCard
           title={"Team Player & Fast Learner"}
           description={
-            "I thrive in team environments, fostering open communication and working seamlessly with designers and fellow developers."
+            "Excelling in team settings, fostering open communication."
           }
           icon={<LuUsers2 />}
         />
         <InfoCard
           title={"Detail Oriented"}
-          description={
-            "I pride myself on my meticulous attention to detail, ensuring that every pixel aligns seamlessly with the overall design."
-          }
+          description={"Detail-oriented, aligning pixels with precision."}
           icon={<TbListDetails />}
         />
         <InfoCard
           title={"Problem Solver"}
           description={
-            "I bring a fresh perspective and a passion for innovative solutions to the table."
+            "Fresh perspective, passionate about innovative solutions."
           }
           icon={<LiaBrainSolid />}
         />
