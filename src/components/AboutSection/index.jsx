@@ -17,9 +17,9 @@ function AboutSection() {
         </p>
       </div>
       <div className="min-h-fit flex xl:flex-row flex-col xl:gap-4 gap-6 w-full">
-        <div className="min-h-fit w-full bg-white-200 rounded-3xl flex flex-col gap-2 p-4 xl:p-8 2xl:justify-center">
+        <div className="min-h-fit w-full bg-white-200 rounded-3xl flex flex-col gap-2 p-6 xl:p-8 2xl:justify-center">
           <div className="flex flex-col gap-4 xl:p-4 p-2 w-full">
-            <h2 className="3xl:text-4xl xl:text-4xl lg:text-3xl text-2xl font-[400] text-black lg:w-[90%] xl:w-[85%]">
+            <h2 className="3xl:text-4xl xl:text-4xl lg:text-3xl text-2xl xl:font-[400] font-[500] text-black lg:w-[90%] xl:w-[85%]">
               Passionate versatile front-end web developer and pixel perfect
               guy.
             </h2>
@@ -31,10 +31,10 @@ function AboutSection() {
             </p>
           </div>
           <div className="w-full flex md:flex-row flex-col items-center gap-4 xl:p-4 p-2">
-            <button className="btn 2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-full uppercase font-[500] text-white-200 bg-dark-100 rounded-full">
+            <button className="btn 2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-[90%] uppercase font-[500] text-white-200 bg-dark-100 rounded-full">
               Download Resume
             </button>
-            <button className="btn 2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-full btn-outline font-[500] border-dark-100 text-black uppercase rounded-full">
+            <button className="btn 2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-[90%] btn-outline font-[500] border-dark-100 text-black uppercase rounded-full">
               More About Me
             </button>
           </div>
