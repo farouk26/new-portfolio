@@ -35,11 +35,11 @@ function Navbar() {
           >
             <Menu.Items className="absolute px-8 lg:origin-left-0 left-0 z-10 lg:w-[30%] w-full divide-y divide-white lg:mt-8 mt-4 origin-top-0 bg-dark-100 text-white focus:outline-none py-2 rounded-3xl">
               <div className="flex flex-col gap-6 p-6">
-                <p className="text-gray-500 font-semibold">Menu</p>
+                <p className="text-gray-500 font-[500]">Menu</p>
                 <Menu.Item>
                   <Link
                     href="/"
-                    className="block mb-2 lg:text-start text-center text-white-200 lg:text-4xl text-3xl font-semibold"
+                    className="block mb-2 lg:text-start text-center text-white-200 lg:text-4xl text-3xl font-[500]"
                   >
                     Projects
                   </Link>
@@ -47,7 +47,7 @@ function Navbar() {
                 <Menu.Item>
                   <Link
                     href="/"
-                    className="block mb-2 lg:text-start text-center text-white-200 lg:text-4xl text-3xl font-semibold"
+                    className="block mb-2 lg:text-start text-center text-white-200 lg:text-4xl text-3xl font-[500]"
                   >
                     About me
                   </Link>
@@ -55,7 +55,7 @@ function Navbar() {
                 <Menu.Item>
                   <Link
                     href="/"
-                    className="block mb-2 lg:text-start text-center text-white-200 lg:text-4xl text-3xl font-semibold"
+                    className="block mb-2 lg:text-start text-center text-white-200 lg:text-4xl text-3xl font-[500]"
                   >
                     Stack
                   </Link>
@@ -63,7 +63,7 @@ function Navbar() {
                 <Menu.Item>
                   <Link
                     href="/"
-                    className="block mb-2 lg:text-start text-center text-white-200 lg:text-4xl text-3xl font-semibold"
+                    className="block mb-2 lg:text-start text-center text-white-200 lg:text-4xl text-3xl font-[500]"
                   >
                     Contact
                   </Link>
@@ -72,7 +72,7 @@ function Navbar() {
             </Menu.Items>
           </Transition>
         </Menu>
-        <p className="lg:text-lg text-md font-semibold uppercase">Menu</p>
+        <p className="lg:text-lg text-md font-[500] uppercase">Menu</p>
       </div>
 
       <div className="navbar-center">
@@ -87,7 +87,7 @@ function Navbar() {
         </figure>
       </div>
       <div className="navbar-end  lg:flex justify-end hidden w-full">
-        <button className="btn btn-ghost rounded-full border-dark-100 uppercase text-black font-semibold">
+        <button className="btn btn-ghost rounded-full border-dark-100 uppercase text-black font-[500]">
           Contact Me
         </button>
       </div>
