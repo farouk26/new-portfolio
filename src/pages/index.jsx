@@ -5,6 +5,7 @@ import Header from "@/components/Header"
 import Layout from "@/components/Layout"
 import Navbar from "@/components/Navbar"
 import ProjectSection from "@/components/ProjectSection"
+import SkillSection from "@/components/SkillsSection"
 import Socials from "@/components/Socials"
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
           <Socials />
           <ProjectSection />
           <AboutSection />
+          <SkillSection />
         </div>
       </Layout>
     </main>

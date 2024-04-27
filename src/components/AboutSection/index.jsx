@@ -17,7 +17,7 @@ function AboutSection() {
         </p>
       </div>
       <div className="min-h-fit flex xl:flex-row flex-col xl:gap-4 gap-6 w-full">
-        <div className="min-h-fit w-full bg-white-200 rounded-3xl flex flex-col gap-2 p-6 xl:p-8 2xl:justify-center">
+        <div className="min-h-fit w-full bg-white-200 rounded-3xl flex flex-col gap-2 p-4 xl:p-8 2xl:justify-center">
           <div className="flex flex-col gap-4 xl:p-4 p-2 w-full">
             <h2 className="3xl:text-4xl xl:text-4xl lg:text-3xl text-2xl xl:font-[400] font-[500] text-black lg:w-[90%] xl:w-[85%]">
               Passionate versatile front-end web developer and pixel perfect
