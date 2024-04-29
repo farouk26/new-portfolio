@@ -3,8 +3,8 @@ import React from "react"
 
 function CarouselImage({ imgUrl }) {
   return (
-    <div class="mask-outer h-full">
-      <div class="mask-inner h-full 2xl:px-5">
+    <div className="mask-outer h-full">
+      <div className="mask-inner h-full 2xl:px-5">
         <Image
           alt="project-img"
           src={imgUrl}
