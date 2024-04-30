@@ -10,26 +10,26 @@ function Carousel() {
 
   return (
     <div className="min-h-fit w-full">
-      <div class="flex w-full vertical-slider flex-row gap-4 2xl:gap-0">
+      <div className="flex w-full vertical-slider flex-row gap-4 2xl:gap-0">
         {/* First Column */}
-        <div class="left-side">
-          <div class="sticky xl:h-[33rem] lg:h-[30rem] top-[15%]">
-            <div class="image-wrapper absolute-full show" data-index="0">
+        <div className="left-side">
+          <div className="sticky xl:h-[33rem] lg:h-[30rem] top-[15%]">
+            <div className="image-wrapper absolute-full show" data-index="0">
               <CarouselImage imgUrl={"/images/unify.png"} />
             </div>
-            <div class="image-wrapper absolute-full" data-index="1">
+            <div className="image-wrapper absolute-full" data-index="1">
               <CarouselImage imgUrl={"/images/reelio.png"} />
             </div>
-            <div class="image-wrapper absolute-full" data-index="2">
+            <div className="image-wrapper absolute-full" data-index="2">
               <CarouselImage imgUrl={"/images/neoncity.png"} />
             </div>
-            <div class="image-wrapper absolute-full" data-index="3">
+            <div className="image-wrapper absolute-full" data-index="3">
               <CarouselImage imgUrl={"/images/portfolio.png"} />
             </div>
           </div>
         </div>
         {/* Second Column */}
-        <div class="right-side min-h-fit flex w-full flex-col gap-4">
+        <div className="right-side min-h-fit flex w-full flex-col gap-4">
           <section className="content-wrapper" data-index="0">
             <ProjectCard
               title={"Unify."}
@@ -50,7 +50,7 @@ function Carousel() {
               date={"2023"}
             />
           </section>
-          <section class="content-wrapper" data-index="2">
+          <section className="content-wrapper" data-index="2">
             <ProjectCard
               title={"Neon City"}
               description={
@@ -60,7 +60,7 @@ function Carousel() {
               date={"2023"}
             />
           </section>
-          <section class="content-wrapper" data-index="3">
+          <section className="content-wrapper" data-index="3">
             <ProjectCard
               title={"Portfolio"}
               description={
