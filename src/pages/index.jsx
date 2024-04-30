@@ -20,9 +20,9 @@ export default function Home() {
           <ProjectSection />
           <AboutSection />
           <SkillSection />
+          <LoopCarousel />
         </div>
       </Layout>
-      <LoopCarousel />
     </main>
   )
 }
