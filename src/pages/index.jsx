@@ -2,6 +2,7 @@ import AboutSection from "@/components/AboutSection"
 import MobileProjectCard from "@/components/Cards/MobileProjectCard"
 import Carousel from "@/components/Carousel"
 import LoopCarousel from "@/components/Carousel/LoopCarousel"
+import TestimonialCarousel from "@/components/Carousel/TestimonialCarousel"
 import Header from "@/components/Header"
 import Layout from "@/components/Layout"
 import Navbar from "@/components/Navbar"
@@ -21,6 +22,7 @@ export default function Home() {
           <AboutSection />
           <SkillSection />
           <LoopCarousel />
+          <TestimonialCarousel />
         </div>
       </Layout>
     </main>
