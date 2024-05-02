@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import "swiper/css/bundle"
 import { Pagination, Autoplay, Navigation } from "swiper/modules"
-import TestimonialCard from "../Cards/TestimonialCard"
+import TestimonialCard from "@/components/Cards/TestimonialCard"
 
 function TestimonialCarousel() {
   return (
@@ -14,17 +14,10 @@ function TestimonialCarousel() {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
-        pagination={{ clickable: true }}
         navigation={false}
-        modules={[Pagination, Autoplay, Navigation]}
+        modules={[Autoplay, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <TestimonialCard />
-        </SwiperSlide>
-        <SwiperSlide>
-          <TestimonialCard />
-        </SwiperSlide>
         <SwiperSlide>
           <TestimonialCard />
         </SwiperSlide>
