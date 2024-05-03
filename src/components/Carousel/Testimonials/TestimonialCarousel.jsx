@@ -1,4 +1,3 @@
-import { useRef, useState } from "react"
 //import swiper
 import { Swiper, SwiperSlide } from "swiper/react"
 //import swiper css and css bundles
@@ -42,7 +41,7 @@ function TestimonialCarousel() {
           <TestimonialCard
             title={"Merzouk Fatima Zohra"}
             description={
-              "Had the pleasure of working with Farouk on a project, where he showed his exceptional design skills on the Landing Page. His creativity knows no bounds, He also showed a strong desire to learn new things and improve his skills. He was not shy to ask questions and seek feedback. Farouk is a valuable asset to any team and I recommend him."
+              "Had the pleasure of working with Farouk on a project. His creativity knows no bounds, He also showed a strong desire to learn new things and improve his skills. He was not shy to ask questions and seek feedback. He is a valuable asset to any team and I recommend him."
             }
             imgUrl={"/images/fatima.jpg"}
             subtitle={"Front-End Developer"}
