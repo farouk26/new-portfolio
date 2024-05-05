@@ -1,6 +1,7 @@
 import AboutSection from "@/components/AboutSection"
 import LoopCarousel from "@/components/Carousel/LoopCarousel"
 import TestimonialCarousel from "@/components/Carousel/Testimonials/TestimonialCarousel"
+import Footer from "@/components/Footer"
 import Header from "@/components/Header"
 import Layout from "@/components/Layout"
 import Navbar from "@/components/Navbar"
@@ -21,6 +22,7 @@ export default function Home() {
           <SkillSection />
           <LoopCarousel />
           <TestimonialCarousel />
+          <Footer />
         </div>
       </Layout>
     </main>
