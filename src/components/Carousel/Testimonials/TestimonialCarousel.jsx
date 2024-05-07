@@ -39,7 +39,7 @@ function TestimonialCarousel() {
         </SwiperSlide>
         <SwiperSlide>
           <TestimonialCard
-            title={"Merzouk Fatima Zohra"}
+            title={"Merzouk F. Zohra"}
             description={
               "Had the pleasure of working with Farouk on a project. His creativity knows no bounds, He also showed a strong desire to learn new things and improve his skills. He was not shy to ask questions and seek feedback. He is a valuable asset to any team and I recommend him."
             }
@@ -59,7 +59,7 @@ function TestimonialCarousel() {
         </SwiperSlide>
         <SwiperSlide>
           <TestimonialCard
-            title={"Manel Hasna Haddoud"}
+            title={"Manel Haddoud"}
             description={
               "I had the pleasure of working with Farouk on a movie project. His leadership skills were evident as he guided and motivated the team. Farouk was always keen to learn and his enthusiasm inspired us all to improve. He was always willing to help others which makes him a true team player."
             }
