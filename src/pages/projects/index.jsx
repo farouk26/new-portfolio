@@ -9,20 +9,21 @@ function ProjectPage() {
       <Layout>
         <div className="min-h-fit w-full flex flex-col gap-6">
           <div className="bg-white-200 rounded-3xl min-h-[17rem] w-full flex flex-col items-center justify-center p-4 gap-2">
-            <h1 className="xl:text-[5rem] text-5xl font-[400] text-dark-100 w-full text-center">
+            <h1 className="xl:text-[5.4rem] text-4xl font-[400] text-dark-100 w-full text-center">
               The work I do
             </h1>
-            <p className="xl:text-xl text-lg font-[300] text-dark-100 xl:w-1/2 w-full text-center">
+            <p className="xl:text-xl text-lg font-[400] text-dark-100 xl:w-1/2 w-full text-center">
               I create websites that focus on the user&apos;s needs and fit the
               product strategy
             </p>
           </div>
+          {/* Project Cards Section */}
           <div className="min-h-fit w-full xl:flex flex-col gap-4 hidden">
             <div className="flex gap-5">
               <ProjectCardPc
                 title={"Unify."}
                 description={
-                  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum numquam ab suscipit dolore et. Corrupti et nostrum eos impedit sequi!"
+                  "An online platform fostering community by promoting the sharing and reuse of various items among members."
                 }
                 Url={"/images/unify.png"}
                 webType={"Community Sharing"}
@@ -31,7 +32,7 @@ function ProjectPage() {
               <ProjectCardPc
                 title={"Neon City"}
                 description={
-                  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum numquam ab suscipit dolore et. Corrupti et nostrum eos impedit sequi!"
+                  "An interactive mini-game, allowing users to personalize pre-generated stories by filling in the blanks."
                 }
                 Url={"/images/neoncity.png"}
                 webType={"Mini-Game"}
@@ -43,7 +44,7 @@ function ProjectPage() {
               <ProjectCardPc
                 title={"Alibaba Lite"}
                 description={
-                  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum numquam ab suscipit dolore et. Corrupti et nostrum eos impedit sequi!"
+                  "An e-commerce website delivering seamless browsing and purchasing experiences for a diverse array of products."
                 }
                 Url={"/images/alibabalite.png"}
                 webType={"E-Commerce"}
@@ -52,7 +53,7 @@ function ProjectPage() {
               <ProjectCardPc
                 title={"Reelio"}
                 description={
-                  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum numquam ab suscipit dolore et. Corrupti et nostrum eos impedit sequi!"
+                  "An innovative movie platform delivering seamless exploration of films and series for passionate enthusiasts."
                 }
                 Url={"/images/reelio.png"}
                 webType={"Movie Platform"}
@@ -64,7 +65,7 @@ function ProjectPage() {
             <MobileProjectCard
               title={"Unify."}
               description={
-                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus officiis nesciunt qui error corporis temporibus nemo? In."
+                "An online platform fostering community by promoting the sharing and reuse of various items among members."
               }
               date={"2023"}
               websiteType={"Community Sharing"}
@@ -73,16 +74,25 @@ function ProjectPage() {
             <MobileProjectCard
               title={"Neon City"}
               description={
-                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus officiis nesciunt qui error corporis temporibus nemo? In."
+                "An interactive mini-game, allowing users to personalize pre-generated stories by filling in the blanks."
               }
               date={"2023"}
               websiteType={"Mini-Game"}
               Url={"/images/neoncity.png"}
             />
             <MobileProjectCard
+              title={"Alibaba Lite"}
+              description={
+                "An e-commerce website delivering seamless browsing and purchasing experiences for a diverse array of products."
+              }
+              date={"2023"}
+              websiteType={"E-commerce"}
+              Url={"/images/alibabalite.png"}
+            />
+            <MobileProjectCard
               title={"Reelio"}
               description={
-                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus officiis nesciunt qui error corporis temporibus nemo? In."
+                "An innovative movie platform delivering seamless exploration of films and series for passionate enthusiasts."
               }
               date={"2023"}
               websiteType={"Movie Platform"}

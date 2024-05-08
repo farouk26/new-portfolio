@@ -11,21 +11,21 @@ function MobileProjectCard({ title, description, date, websiteType, Url }) {
             alt="project-image"
             height={1080}
             width={1080}
-            className="rounded-3xl w-full h-full"
+            className="rounded-2xl w-full h-full"
           />
         </figure>
       </div>
       <div className="min-h-fit w-full bg-white-200 rounded-3xl p-6 shadow-sm">
         <div className="lg:h-[10rem] h-[11rem] w-full flex flex-col lg:p-4 md:p-2 justify-between">
           <div className="flex justify-between gap-2">
-            <p className="lg:text-md md:text-md text-sm uppercase font-[400] text-black">
+            <p className="lg:text-md md:text-md text-sm uppercase font-[500] text-black">
               {websiteType}
             </p>
-            <p className="lg:text-md md:text-md text-sm font-[400] text-black">
+            <p className="lg:text-md md:text-md text-sm font-[500] text-black">
               {date}
             </p>
           </div>
-          <div className="w-full flex flex-col p-2 gap-4">
+          <div className="w-full flex flex-col gap-2">
             <h2 className="lg:text-xl md:text-3xl text-2xl font-[500] text-black">
               {title}
             </h2>

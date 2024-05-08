@@ -24,7 +24,7 @@ function Carousel() {
               <CarouselImage imgUrl={"/images/neoncity.png"} />
             </div>
             <div className="image-wrapper absolute-full" data-index="3">
-              <CarouselImage imgUrl={"/images/portfolio.png"} />
+              <CarouselImage imgUrl={"/images/alibabalite.png"} />
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ function Carousel() {
             <ProjectCard
               title={"Unify."}
               description={
-                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quis quos harum vel veritatis modi libero nihil!"
+                "An online platform fostering community by promoting the sharing and reuse of various items among members."
               }
               websiteType={"Community Sharing"}
               date={"2023"}
@@ -44,7 +44,7 @@ function Carousel() {
             <ProjectCard
               title={"Reelio"}
               description={
-                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quis quos harum vel veritatis modi libero nihil!"
+                "An innovative movie platform delivering seamless exploration of films and series for passionate enthusiasts."
               }
               websiteType={"Movie Platform"}
               date={"2023"}
@@ -54,7 +54,7 @@ function Carousel() {
             <ProjectCard
               title={"Neon City"}
               description={
-                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quis quos harum vel veritatis modi libero nihil!"
+                "An interactive mini-game, allowing users to personalize pre-generated stories by filling in the blanks."
               }
               websiteType={"Mini-Game"}
               date={"2023"}
@@ -62,11 +62,11 @@ function Carousel() {
           </section>
           <section className="content-wrapper" data-index="3">
             <ProjectCard
-              title={"Portfolio"}
+              title={"Alibaba Lite"}
               description={
-                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quis quos harum vel veritatis modi libero nihil!"
+                "An e-commerce website delivering seamless browsing and purchasing experiences for a diverse array of products."
               }
-              websiteType={"Personal Template"}
+              websiteType={"E-commerce"}
               date={"2023"}
             />
           </section>
