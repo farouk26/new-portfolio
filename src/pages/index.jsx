@@ -14,7 +14,6 @@ export default function Home() {
     <main className="min-h-screen bg-white-100">
       <Layout>
         <div className="flex flex-col gap-4 min-h-fit">
-          <Navbar />
           <Header />
           <Socials />
           <ProjectSection />
@@ -22,7 +21,6 @@ export default function Home() {
           <SkillSection />
           <LoopCarousel />
           <TestimonialCarousel />
-          <Footer />
         </div>
       </Layout>
     </main>

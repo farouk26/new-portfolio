@@ -20,7 +20,7 @@ function ProjectSection() {
         <MobileProjectCard
           title={"Unify."}
           description={
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus officiis nesciunt qui error corporis temporibus nemo? In."
+            "An online platform fostering community by promoting the sharing and reuse of various items among members."
           }
           date={"2023"}
           websiteType={"Community Sharing"}
@@ -29,7 +29,7 @@ function ProjectSection() {
         <MobileProjectCard
           title={"Neon City"}
           description={
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus officiis nesciunt qui error corporis temporibus nemo? In."
+            "An interactive mini-game, allowing users to personalize pre-generated stories by filling in the blanks."
           }
           date={"2023"}
           websiteType={"Mini-Game"}
@@ -38,20 +38,20 @@ function ProjectSection() {
         <MobileProjectCard
           title={"Reelio"}
           description={
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus officiis nesciunt qui error corporis temporibus nemo? In."
+            "An innovative movie platform delivering seamless exploration of films and series for passionate enthusiasts."
           }
           date={"2023"}
           websiteType={"Movie Platform"}
           Url={"/images/reelio.png"}
         />
         <MobileProjectCard
-          title={"Portfolio"}
+          title={"Alibaba Lite"}
           description={
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus officiis nesciunt qui error corporis temporibus nemo? In."
+            "An e-commerce website delivering seamless browsing and purchasing experiences for a diverse array of products."
           }
           date={"2023"}
-          websiteType={"Personal Template"}
-          Url={"/images/portfolio.png"}
+          websiteType={"E-commerce Website"}
+          Url={"/images/alibabalite.png"}
         />
       </div>
       <div className="w-full xl:mt-8 mt-10 flex justify-center">
