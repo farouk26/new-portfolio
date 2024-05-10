@@ -9,11 +9,11 @@ function AboutPage() {
   return (
     <section className="min-h-screen w-full bg-white-100">
       <Layout>
-        <div className="min-h-fit w-full flex flex-col gap-6">
+        <div className="min-h-fit w-full flex flex-col gap-5">
           {/* Header Section */}
-          <div className="xl:h-[33rem] min-h-fit w-full flex xl:flex-row flex-col gap-4">
+          <div className="xl:h-[33rem] 2xl:h-[47rem] 3xl:h-[34rem] min-h-fit w-full flex xl:flex-row 2xl:flex-col 3xl:flex-row flex-col gap-4">
             {/* First Column */}
-            <div className="bg-white-200 rounded-3xl h-full xl:w-[51%] w-full flex flex-col xl:p-10 md:p-8 p-6 md:gap-10 gap-6 xl:justify-between">
+            <div className="bg-white-200 rounded-3xl h-full xl:w-[51%] 2xl:w-full 3xl:w-[52%] w-full flex flex-col xl:p-10 md:p-8 p-6 md:gap-10 gap-6 xl:justify-between">
               <div className="flex flex-col gap-4 w-full min-h-fit">
                 <p className="xl:text-2xl text-xl text-dark-100 font-[400]">
                   About me
@@ -32,7 +32,7 @@ function AboutPage() {
               </div>
             </div>
             {/* Second Column */}
-            <div className="flex flex-col gap-4 h-full xl:w-[49%] w-full">
+            <div className="flex flex-col gap-4 h-full xl:w-[49%] 2xl:w-full 3xl:w-[48%] w-full">
               <div className="xl:h-[60%] min-h-fit w-full bg-white-200 rounded-3xl flex justify-center items-center p-6">
                 <p className="xl:text-xl text- font-[400] text-dark-100">
                   I&apos;m a dedicated Front-End Developer with experience in
@@ -75,7 +75,7 @@ function AboutPage() {
             </figure>
           </div>
           {/* Education Section */}
-          <div className="w-full my-6 flex justify-center">
+          <div className="w-full my-8 flex justify-center">
             <h1 className="text-6xl font-[500] text-dark-100">Education</h1>
           </div>
           <div className="min-h-fit w-full">
