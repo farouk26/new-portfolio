@@ -9,11 +9,11 @@ function AboutPage() {
   return (
     <section className="min-h-screen w-full bg-white-100">
       <Layout>
-        <div className="min-h-fit w-full flex flex-col gap-4">
+        <div className="min-h-fit w-full flex flex-col gap-6">
           {/* Header Section */}
           <div className="xl:h-[33rem] min-h-fit w-full flex xl:flex-row flex-col gap-4">
             {/* First Column */}
-            <div className="bg-white-200 rounded-3xl h-full xl:w-[51%] w-full flex flex-col xl:p-10 p-6 gap-6 xl:justify-between">
+            <div className="bg-white-200 rounded-3xl h-full xl:w-[51%] w-full flex flex-col xl:p-10 md:p-8 p-6 md:gap-10 gap-6 xl:justify-between">
               <div className="flex flex-col gap-4 w-full min-h-fit">
                 <p className="xl:text-2xl text-xl text-dark-100 font-[400]">
                   About me
@@ -22,11 +22,11 @@ function AboutPage() {
                   Creative Front-End Developer
                 </h1>
               </div>
-              <div className="flex xl:flex-row flex-col gap-3 w-full justify-center items-center">
-                <button className="btn xl:btn-lg btn-md bg-dark-200 text-white-200 uppercase xl:w-[49%] w-full rounded-full font-[400]">
+              <div className="flex xl:flex-row md:flex-row flex-col gap-3 w-full justify-center items-center">
+                <button className="btn xl:btn-lg btn-md bg-dark-200 text-white-200 uppercase xl:w-[49%] md:w-[50%] w-full rounded-full font-[400]">
                   Get In Touch
                 </button>
-                <button className="btn xl:btn-lg btn-md border-dark-100 btn-ghost text-dark-100 rounded-full uppercase xl:w-[49%] w-full font-[400]">
+                <button className="btn xl:btn-lg btn-md border-dark-100 btn-ghost text-dark-100 rounded-full uppercase xl:w-[49%] md:w-[50%] w-full font-[400]">
                   Download My CV
                 </button>
               </div>
@@ -34,7 +34,7 @@ function AboutPage() {
             {/* Second Column */}
             <div className="flex flex-col gap-4 h-full xl:w-[49%] w-full">
               <div className="xl:h-[60%] min-h-fit w-full bg-white-200 rounded-3xl flex justify-center items-center p-6">
-                <p className="xl:text-xl text-lg font-[400] text-dark-100">
+                <p className="xl:text-xl text- font-[400] text-dark-100">
                   I&apos;m a dedicated Front-End Developer with experience in
                   collaborative team projects and a strong background in
                   creating responsive and visually appealing web interfaces.
@@ -55,16 +55,16 @@ function AboutPage() {
             </div>
           </div>
           {/* Second Section */}
-          <div className="xl:h-[38.8rem] min-h-fit w-full flex-row flex gap-4">
+          <div className="xl:h-[38.8rem] min-h-fit w-full xl:flex-row md:flex-row flex-col-reverse flex gap-4">
             {/* First Column */}
-            <div className="h-full w-[45%]">
+            <div className="h-full xl:w-[45%] w-full">
               <div className="flex flex-col gap-4">
                 <DetailCard title={"Years Of Experience"} subtitle={"1+"} />
                 <DetailCard title={"Projects Completed"} subtitle={"5+"} />
                 <DetailCard title={"Skills Learned"} subtitle={"12+"} />
               </div>
             </div>
-            <figure className="w-[55%]">
+            <figure className="xl:w-[55%] w-full">
               <Image
                 alt="avatar-img"
                 src={"/images/farouk.png"}
@@ -75,7 +75,7 @@ function AboutPage() {
             </figure>
           </div>
           {/* Education Section */}
-          <div className="w-full my-8 flex justify-center">
+          <div className="w-full my-6 flex justify-center">
             <h1 className="text-6xl font-[500] text-dark-100">Education</h1>
           </div>
           <div className="min-h-fit w-full">
@@ -86,7 +86,7 @@ function AboutPage() {
                 organization={"Re:Coded"}
                 period={"2023 - 2023"}
               />
-              <div className="flex flex-row w-full gap-4">
+              <div className="flex xl:flex-row md:flex-row flex-col w-full gap-4">
                 <EducationCard
                   occupation={"Master of Science (MSc)"}
                   major={"Plant Disease / Agronomy"}
