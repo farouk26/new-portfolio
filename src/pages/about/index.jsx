@@ -1,6 +1,7 @@
 import DetailCard from "@/components/Cards/DetailCard"
 import EducationCard from "@/components/Cards/EducationCard"
 import InfoCard from "@/components/Cards/InfoCard"
+import StatusCard from "@/components/Cards/StatusCard"
 import Layout from "@/components/Layout"
 import Image from "next/image"
 import React from "react"
@@ -101,6 +102,14 @@ function AboutPage() {
                 />
               </div>
             </div>
+          </div>
+          {/* Status Section */}
+          <div className="w-full my-8 flex justify-center">
+            <h1 className="text-6xl font-[500] text-dark-100">Status</h1>
+          </div>
+          <div className="w-full min-h-fit flex flex-row gap-4">
+            <StatusCard />
+            <StatusCard />
           </div>
         </div>
       </Layout>
