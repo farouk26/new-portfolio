@@ -1,10 +1,12 @@
 import DetailCard from "@/components/Cards/DetailCard"
 import EducationCard from "@/components/Cards/EducationCard"
-import InfoCard from "@/components/Cards/InfoCard"
 import StatusCard from "@/components/Cards/StatusCard"
 import Layout from "@/components/Layout"
 import Image from "next/image"
 import React from "react"
+import { GoDotFill } from "react-icons/go"
+import { TbBriefcase } from "react-icons/tb"
+import { CiRainbow } from "react-icons/ci"
 
 function AboutPage() {
   return (
@@ -107,9 +109,18 @@ function AboutPage() {
           <div className="w-full my-8 flex justify-center">
             <h1 className="text-6xl font-[500] text-dark-100">Status</h1>
           </div>
-          <div className="w-full min-h-fit flex flex-row gap-4">
-            <StatusCard />
-            <StatusCard />
+          <div className="w-full min-h-fit flex xl:flex-row flex-col gap-4">
+            <StatusCard
+              title={"Available for Work"}
+              status={"Status"}
+              IconComponent={<TbBriefcase />}
+              IconComponent2={<GoDotFill />}
+            />
+            <StatusCard
+              title={"Remote & Freelance"}
+              status={"Prefered work type"}
+              IconComponent={<CiRainbow />}
+            />
           </div>
         </div>
       </Layout>
