@@ -14,7 +14,7 @@ const poppins = Poppins({
 function Layout({ children }) {
   return (
     <main
-      className={`${poppins.className} font-poppins 4xl:px-[39rem] 3xl:px-[25rem] 2xl:px-[23rem] xl:px-[11rem] lg:px-[2rem] md:px-5 px-4 lg:py-0 py-4 flex flex-col gap-5`}
+      className={`${poppins.className} font-poppins 4xl:px-[39rem] 3xl:px-[25rem] 2xl:px-[23rem] xl:px-[11rem] lg:px-[2rem] md:px-5 px-4 lg:pb-5 py-4 flex flex-col gap-5`}
     >
       <Navbar />
       <div className="min-h-fit w-full">{children}</div>
