@@ -63,17 +63,6 @@ function AboutPage() {
               <DetailCard />
               <DetailCard />
             </div>
-            {/* Second Column */}
-            <figure className="w-[58%]">
-              <Image
-                alt="personal-pic"
-                src={"/images/farouk.png"}
-                height={800}
-                width={800}
-                priority
-                className="w-full h-full object-cover rounded-3xl"
-              />
-            </figure>
           </div>
         </div>
       </Layout>
