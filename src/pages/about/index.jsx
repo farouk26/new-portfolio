@@ -63,6 +63,18 @@ function AboutPage() {
               <DetailCard />
               <DetailCard />
             </div>
+            {/* Second Column */}
+            <div className="w-[58%] min-h-fit">
+              <figure>
+                <Image
+                  alt="avatar"
+                  src={"/images/farouk.png"}
+                  height={800}
+                  width={800}
+                  className="object-cover w-full h-full"
+                />
+              </figure>
+            </div>
           </div>
         </div>
       </Layout>
