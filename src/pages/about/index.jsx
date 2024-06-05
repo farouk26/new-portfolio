@@ -12,7 +12,7 @@ function AboutPage() {
   return (
     <section className="min-h-screen w-full bg-white-100">
       <Layout>
-        <div className="min-h-fit w-full flex flex-col gap-5">
+        <div className="min-h-full w-full flex flex-col gap-5">
           {/* Header Section */}
           <div className="h-[33rem] w-full flex xl:flex-row flex-col gap-4">
             {/* First Column */}
@@ -55,23 +55,21 @@ function AboutPage() {
               </div>
             </div>
           </div>
-          {/* Picture Section */}
-          <div className="xl:h-[38.7rem] 3xl:h-full w-full rounded-3xl flex flex-row gap-4">
-            {/* First Column */}
-            <div className="w-[42%] flex flex-col gap-4">
+          {/* Second Section */}
+          <div className="min-h-fit w-full flex flex-row gap-4">
+            <div className="flex flex-col h-full w-[42%] gap-4">
               <DetailCard />
               <DetailCard />
               <DetailCard />
             </div>
-            {/* Second Column */}
-            <div className="w-[58%] min-h-fit">
+            <div className="w-[58%] h-1/2">
               <figure>
                 <Image
-                  alt="avatar"
-                  src={"/images/farouk.png"}
-                  height={800}
-                  width={800}
-                  className="object-cover w-full h-full"
+                  alt="personal-picture"
+                  src="/images/farouk.png"
+                  width={500}
+                  height={500}
+                  className="w-full h-1/2 object-cover rounded-3xl"
                 />
               </figure>
             </div>

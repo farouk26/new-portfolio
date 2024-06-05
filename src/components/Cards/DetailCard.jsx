@@ -2,12 +2,12 @@ import React from "react"
 
 function DetailCard({ title, subtitle }) {
   return (
-    <div className="h-full w-full bg-white-200 rounded-3xl p-8">
-      <div className="flex flex-col gap-8 h-full 3xl:justify-center">
-        <p className="text-lg text-dark-100 font-[400] uppercase">
+    <div className="w-full h-[12.75rem] bg-white-200 rounded-3xl p-6">
+      <div className="flex flex-col gap-6 p-4">
+        <p className="font-[400] uppercase text-dark-100">
           Years Of Experience
         </p>
-        <h2 className="text-7xl text-dark-100 font-[400]">1+</h2>
+        <h1 className="font-[500] text-dark-100 uppercase text-6xl">1+</h1>
       </div>
     </div>
   )
