@@ -56,22 +56,58 @@ function AboutPage() {
             </div>
           </div>
           {/* Second Section */}
-          <div className="min-h-fit w-full flex flex-row gap-4">
-            <div className="flex flex-col h-full w-[42%] gap-4">
-              <DetailCard />
-              <DetailCard />
-              <DetailCard />
-            </div>
-            <div className="w-[58%] h-1/2">
-              <figure>
-                <Image
-                  alt="personal-picture"
-                  src="/images/farouk.png"
-                  width={500}
-                  height={500}
-                  className="w-full h-1/2 object-cover rounded-3xl"
-                />
-              </figure>
+          <div className="min-h-fit w-full">
+            <div className="flex xl:flex-row flex-col gap-4 w-full h-full">
+              {/* First Column */}
+              <div className="flex flex-col h-full w-[42%] gap-4">
+                <DetailCard />
+                <DetailCard />
+                <DetailCard />
+              </div>
+              {/* Second Column */}
+              <div className="w-[58%] min-h-fit flex flex-col gap-4">
+                <div className="flex xl:flex-row flex-col gap-4 w-full h-full">
+                  {/* First Column */}
+                  <div className="h-full w-[50%] flex flex-col gap-4">
+                    <div className="w-full h-[35%]">
+                      <StatusCard
+                        IconComponent={<TbBriefcase />}
+                        IconComponent2={<GoDotFill />}
+                        title={"Available for Work"}
+                        status={"Status"}
+                      />
+                    </div>
+                    <span className="w-full xl:h-full flex flex-col gap-4 p-8 bg-white-200 rounded-3xl">
+                      <p className="text-dark-100 font-[400] text-xl">
+                        This is one of my favorite quotes by Confucius.
+                      </p>
+                      <q className="text-dark-100 font-[500] text-4xl">
+                        The man who moves a mountain begins by carrying away
+                        small stones.
+                      </q>
+                    </span>
+                  </div>
+                  {/* Second Column */}
+                  <div className="h-full w-[50%] flex flex-col gap-4">
+                    <figure className="w-full xl:h-full 3xl:h-[65%]">
+                      <Image
+                        alt="personal-picture"
+                        src={"/images/farouk.png"}
+                        height={500}
+                        width={500}
+                        className="rounded-3xl w-full h-full object-cover"
+                      />
+                    </figure>
+                    <div className="w-full h-[35%]">
+                      <StatusCard
+                        IconComponent={<CiRainbow />}
+                        title={"Remote & Freelance"}
+                        status={"Prefered work type"}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
