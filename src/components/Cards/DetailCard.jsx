@@ -1,11 +1,13 @@
 import React from "react"
 
-function DetailCard({ title, subtitle }) {
+function DetailCard({ title, numbers }) {
   return (
-    <div className="min-h-fit w-full bg-white-200 rounded-3xl">
-      <div className="flex flex-col gap-8 py-8 px-10 justify-center h-full">
-        <p className="text-lg text-dark-100 font-[400] uppercase">{title}</p>
-        <h2 className="text-7xl text-dark-100 font-[500]">{subtitle}</h2>
+    <div className="w-full h-full bg-white-200 rounded-3xl p-6">
+      <div className="flex flex-col gap-6 p-4 h-full">
+        <p className="font-[400] uppercase text-dark-100">{title}</p>
+        <h1 className="font-[500] text-dark-100 uppercase text-6xl">
+          {numbers}
+        </h1>
       </div>
     </div>
   )
