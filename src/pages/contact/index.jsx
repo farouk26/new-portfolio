@@ -6,9 +6,9 @@ function ContactPage() {
     <section className="min-h-screen w-full bg-white-100">
       <Layout>
         <div className="min-h-fit w-full">
-          <div className="w-full xl:h-[30rem] h-full flex xl:flex-row gap-4 flex-col">
+          <div className="w-full xl:h-[32rem] h-full flex xl:flex-row gap-4 flex-col">
             {/* First Column */}
-            <div className="h-full xl:w-[50%] w-full bg-white-200 rounded-3xl p-6">
+            <div className="h-full xl:w-[52%] w-full bg-white-200 rounded-3xl p-6">
               <div className="flex flex-col w-full h-full justify-between p-4">
                 <h1 className="text-dark-100 font-[500] text-7xl">
                   I&apos;m ready to hear your thoughts
@@ -21,7 +21,7 @@ function ContactPage() {
               </div>
             </div>
             {/* Second Column */}
-            <div className="xl:w-[50%] w-full h-full bg-white-200 rounded-3xl p-4">
+            <div className="xl:w-[48%] w-full h-full bg-white-200 rounded-3xl p-4">
               <div className="w-full h-full flex flex-col gap-4 p-2">
                 <div className="w-full min-h-fit flex xl:flex-row flex-col gap-4">
                   <input
