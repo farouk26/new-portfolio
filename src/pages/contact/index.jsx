@@ -8,12 +8,12 @@ function ContactPage() {
         <div className="min-h-fit w-full">
           <div className="w-full xl:h-[32rem] h-full flex xl:flex-row gap-4 flex-col">
             {/* First Column */}
-            <div className="h-full xl:w-[52%] w-full bg-white-200 rounded-3xl p-6">
-              <div className="flex flex-col w-full h-full justify-between p-4">
-                <h1 className="text-dark-100 font-[500] text-7xl">
+            <div className="h-full xl:w-[52%] w-full bg-white-200 rounded-3xl xl:p-6 p-4">
+              <div className="flex flex-col w-full h-full justify-between p-4 gap-6">
+                <h1 className="text-dark-100 font-[500] xl:text-7xl text-5xl">
                   I&apos;m ready to hear your thoughts
                 </h1>
-                <p className="text-dark-100 font-[400] text-lg">
+                <p className="text-dark-100 font-[400] xl:text-lg text-md">
                   I&apos;m looking forward to connecting with you and exploring
                   how my skills in web development can contribute to your needs,
                   Don&apos;t hesitate to reach out to me for a meeting today.
