@@ -12,7 +12,7 @@ function Carousel() {
     <div className="min-h-fit w-full">
       <div className="flex w-full vertical-slider flex-row gap-4 2xl:gap-0">
         {/* First Column */}
-        <div className="left-side">
+        <div className="left-side bg-red-300">
           <div className="sticky xl:h-[33rem] lg:h-[30rem] top-[15%]">
             <div className="image-wrapper absolute-full show" data-index="0">
               <CarouselImage imgUrl={"/images/unify.png"} />
