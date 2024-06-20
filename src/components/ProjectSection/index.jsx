@@ -1,6 +1,6 @@
 import React from "react"
 import MobileProjectCard from "../Cards/MobileProjectCard"
-import Carousel from "../Carousel"
+import ProjectCard from "../Cards/ProjectCard"
 
 function ProjectSection() {
   return (
@@ -13,8 +13,25 @@ function ProjectSection() {
           The Work I&apos;m Proud of
         </p>
       </div>
-      <div className="xl:block hidden">
-        <Carousel />
+      <div className="xl:flex xl:flex-row flex-col gap-4 hidden">
+        <ProjectCard
+          title={"Unify."}
+          Url={"/images/unify.png"}
+          description={
+            "An online platform fostering community by promoting the sharing and reuse of various items among members."
+          }
+          webType={"Community Sharing"}
+          date={"2023"}
+        />
+        <ProjectCard
+          title={"Reelio"}
+          Url={"/images/reelio.png"}
+          description={
+            "An innovative movie platform delivering seamless exploration of films and series for passionate enthusiasts."
+          }
+          webType={"Movie Platform"}
+          date={"2023"}
+        />
       </div>
       <div className="xl:hidden flex flex-wrap md:gap-8 gap-6">
         <MobileProjectCard
@@ -54,7 +71,7 @@ function ProjectSection() {
           Url={"/images/alibabalite.png"}
         />
       </div>
-      <div className="w-full xl:mt-8 mt-10 flex justify-center">
+      <div className="w-full xl:mt-12 mt-10 flex justify-center">
         <button className="btn btn-outline border-black text-black uppercase font-[500] rounded-full lg:w-[14rem] xl:w-[13rem] 3xl:w-[14rem] w-[60%]">
           View More
         </button>

@@ -1,28 +1,33 @@
+import Image from "next/image"
 import React from "react"
 
-function ProjectCard({ websiteType, date, title, description }) {
+function ProjectCardPc({ title, Url, description, date, webType }) {
   return (
-    <div className="min-h-fit w-full bg-white-200 rounded-3xl p-6 shadow-sm">
-      <div className="xl:min-h-[18rem] 2xl:min-h-[22rem] lg:h-[10rem] h-[11rem] w-full flex flex-col lg:p-4 md:p-2 justify-between">
-        <div className="flex justify-between gap-2">
-          <p className="lg:text-md xl:text-lg md:text-md text-sm uppercase font-[500] text-black">
-            {websiteType}
+    <div className="min-h-fit w-full flex flex-col gap-4">
+      <figure className="w-full p-5 bg-white-200 rounded-3xl">
+        <Image
+          alt="project-thumbnail"
+          src={Url}
+          height={1080}
+          width={1080}
+          priority
+          className="w-full h-full object-cover rounded-2xl"
+        />
+      </figure>
+      <div className="w-full flex flex-col justify-between xl:h-[15.95rem] 3xl:h-[16rem] bg-white-200 rounded-3xl p-7">
+        <div className="flex justify-between p-2">
+          <p className="text-dark-100 uppercase text-md font-[500]">
+            {webType}
           </p>
-          <p className="lg:text-md md:text-md xl:text-lg text-sm font-[500] text-black">
-            {date}
-          </p>
+          <p className="text-md text-dark-100 font-[500]">{date}</p>
         </div>
-        <div className="w-full flex flex-col p-2 gap-4">
-          <h2 className="lg:text-xl xl:text-3xl md:text-3xl text-2xl font-[500] text-black">
-            {title}
-          </h2>
-          <p className="md:text-md text-md font-[400] text-black">
-            {description}
-          </p>
+        <div className="flex flex-col min-h-fit gap-4 p-2">
+          <h2 className="text-dark-100 font-[500] text-3xl">{title}</h2>
+          <p className="text-dark-100 text-md font-[400]">{description}</p>
         </div>
       </div>
     </div>
   )
 }
 
-export default ProjectCard
+export default ProjectCardPc
