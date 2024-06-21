@@ -4,6 +4,7 @@ import InfoCard from "../Cards/InfoCard"
 import { LiaBrainSolid } from "react-icons/lia"
 import { LuUsers2 } from "react-icons/lu"
 import { TbListDetails } from "react-icons/tb"
+import Link from "next/link"
 
 function AboutSection() {
   return (
@@ -31,12 +32,16 @@ function AboutSection() {
             </p>
           </div>
           <div className="w-full flex md:flex-row flex-col items-center gap-4 xl:p-4 p-2">
-            <button className="btn 2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-[90%] uppercase font-[500] text-white-200 bg-dark-100 rounded-full">
-              Download Resume
-            </button>
-            <button className="btn 2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-[90%] btn-outline font-[500] border-dark-100 text-black uppercase rounded-full">
-              More About Me
-            </button>
+            <Link href={"/"} rel="noopener noreferrer" target="_blank">
+              <button className="btn 2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-[90%] uppercase font-[500] text-white-200 bg-dark-100 rounded-full">
+                Download Resume
+              </button>
+            </Link>
+            <Link href={"/about"} rel="noopener noreferrer" target="_blank">
+              <button className="btn 2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-[90%] btn-outline font-[500] border-dark-100 text-black uppercase rounded-full">
+                More About Me
+              </button>
+            </Link>
           </div>
         </div>
         <figure className="xl:w-[63%] 3xl:w-[65%] w-full">
