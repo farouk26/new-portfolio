@@ -25,6 +25,10 @@ module.exports = {
         100: "#101418",
         200: "#181C20",
       },
+      midnight: {
+        green: "#004953",
+        teal: "#003840",
+      },
     },
     screens: {
       xs: "320px", // For Extra small devices (portrait phones)

@@ -1,4 +1,5 @@
 import React from "react"
+import TransparentButton from "../Buttons/TransparentButton"
 
 function Header() {
   return (
@@ -15,9 +16,7 @@ function Header() {
           the strategy.
         </p>
       </div>
-      <button className="btn btn-outline btn-md font-[400] lg:btn-lg uppercase rounded-full w-[85%] lg:w-[25%] xl:w-[20%] 2xl:w-[25%] self-center mb-2 bg-black text-white-200">
-        Contact Me
-      </button>
+      <TransparentButton />
     </section>
   )
 }

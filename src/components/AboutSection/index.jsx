@@ -33,7 +33,7 @@ function AboutSection() {
           </div>
           <div className="w-full flex md:flex-row flex-col items-center gap-4 xl:p-4 p-2">
             <Link href={"/"} rel="noopener noreferrer" target="_blank">
-              <button className="btn 2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-[90%] uppercase font-[500] text-white-200 bg-dark-100 rounded-full">
+              <button className="btn 2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-[90%] uppercase font-[500] text-white-200  bg-midnight-green hover:bg-midnight-teal hover:text-white-200 rounded-full">
                 Download Resume
               </button>
             </Link>
