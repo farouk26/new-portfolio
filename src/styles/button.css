@@ -1,6 +1,10 @@
+/* This CSS file is for both trasnparent button hover effect and the colorful ones */
+
 .button {
+  position: relative;
   transform: scaleX(1);
   transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1);
+  overflow: hidden;
 }
 
 .button::after {
@@ -8,7 +12,7 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  background: #003840; /* Ensure this matches the initial background color */
+  background: #003840; /* Initial background color */
   transition:
     transform 0.5s cubic-bezier(0.4, 0, 0, 1),
     border-radius 0.5s cubic-bezier(0.4, 0, 0, 1);
@@ -16,6 +20,7 @@
   height: 100%;
   border-radius: 50% 50% 0 0;
   transform: translateY(100%);
+  z-index: 0;
 }
 
 .button:hover {
@@ -23,14 +28,44 @@
 }
 
 .button:hover::after {
-  background: #004953; /* Ensure the ::after pseudo-element transitions to the hover background color */
+  background: #004953; /* Hover background color */
   transform: translateY(0%);
   border-radius: 0;
 }
 
 .button span {
-  overflow: hidden;
   position: relative;
+  z-index: 1;
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.button .main-text {
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.button .additional-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.button:hover .main-text {
+  opacity: 0;
+  transform: translateY(-60px);
+}
+
+.button:hover .additional-text {
+  opacity: 1;
+  transform: translate(-50%, -50%);
 }
 
 .button span::after {
@@ -38,7 +73,6 @@
   height: 100%;
   transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1);
   content: "";
-  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,4 +85,18 @@
 
 .button:hover span::after {
   transform: translate(-50%, 0);
+}
+
+/* CSS of transparent Button starts here */
+
+.btn_transparent > * {
+  transition: all ease-in-out 0.4s;
+}
+
+.btn_transparent:hover .btn__top {
+  transform: translateY(100%);
+}
+
+.btn_transparent:hover .btn__bottom {
+  bottom: 0;
 }

@@ -1,0 +1,62 @@
+/* Common transition settings for all elements */
+.social-card * {
+  transition:
+    transform 0.3s ease-in-out,
+    top 0.3s ease-in-out,
+    bottom 0.3s ease-in-out,
+    opacity 0.3s ease-in-out;
+}
+
+/* Initial positions */
+.bottom-icon {
+  bottom: 100%;
+  opacity: 0;
+}
+
+.bottom-title {
+  top: 100%;
+  opacity: 0;
+}
+
+/* Icon container hover effect */
+.icon-container:hover .top-icon {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.icon-container:hover .bottom-icon {
+  bottom: 0;
+  opacity: 1;
+}
+
+/* Title container hover effect */
+.title-container:hover .top-title {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.title-container:hover .bottom-title {
+  top: 0;
+  opacity: 1;
+}
+
+/* Parent card hover effect */
+.social-card:hover .top-icon {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.social-card:hover .bottom-icon {
+  bottom: 0;
+  opacity: 1;
+}
+
+.social-card:hover .top-title {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.social-card:hover .bottom-title {
+  top: 0;
+  opacity: 1;
+}

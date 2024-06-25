@@ -1,9 +1,11 @@
 import React from "react"
 import TransparentButton from "../Buttons/TransparentButton"
+import ColorfultButton from "../Buttons/ColorfulButton"
+import ColorfulButton from "../Buttons/ColorfulButton"
 
 function Header() {
   return (
-    <section className="bg-white-200 rounded-3xl min-h-fit flex flex-col xl:p-7 p-4 gap-2">
+    <section className="bg-white-200 rounded-3xl min-h-fit flex flex-col xl:p-7 p-5 xl:gap-2 md:gap-1 gap-6">
       <div className="flex flex-col xl:gap-2 gap-5 text-black justify-center items-center 3xl:gap-8 lg:p-6">
         <h2 className="lg:text-3xl text-xl font-[400]">
           Hello, I&apos;m Farouk
@@ -16,7 +18,9 @@ function Header() {
           the strategy.
         </p>
       </div>
-      <TransparentButton />
+      <div className="w-full flex justify-center items-center">
+        <ColorfulButton mainText={"Contact Me"} secondText={"Today"} />
+      </div>
     </section>
   )
 }

@@ -2,6 +2,7 @@ import React from "react"
 import MobileProjectCard from "../Cards/MobileProjectCard"
 import ProjectCard from "../Cards/ProjectCard"
 import Link from "next/link"
+import TransparentButton from "../Buttons/TransparentButton"
 
 function ProjectSection() {
   return (
@@ -72,11 +73,17 @@ function ProjectSection() {
           Url={"/images/alibabalite.png"}
         />
       </div>
-      <div className="w-full xl:mt-12 mt-10 flex justify-center">
-        <Link href={"/projects"} rel="noopener noreferrer" target="_blank">
-          <button className="btn btn-outline border-black text-black uppercase font-[500] rounded-full lg:w-[14rem] xl:w-[13rem] 3xl:w-[14rem] w-[60%]">
-            View More
-          </button>
+      <div className="w-full xl:mt-10 mt-10 flex justify-center items-center">
+        <Link
+          className="w-fit"
+          href={"/projects"}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <TransparentButton
+            mainText={"View More"}
+            secondText={"My Projects"}
+          />
         </Link>
       </div>
     </section>
