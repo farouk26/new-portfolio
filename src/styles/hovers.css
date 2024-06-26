@@ -1,62 +1,37 @@
-/* Common transition settings for all elements */
-.social-card * {
-  transition:
-    transform 0.3s ease-in-out,
-    top 0.3s ease-in-out,
-    bottom 0.3s ease-in-out,
-    opacity 0.3s ease-in-out;
+.social-card {
+  transition: all ease-in-out 0.4s;
 }
 
-/* Initial positions */
-.bottom-icon {
-  bottom: 100%;
-  opacity: 0;
+.social-card .parent_container > * {
+  transition: all ease-in-out 0.4s;
 }
 
-.bottom-title {
-  top: 100%;
-  opacity: 0;
-}
-
-/* Icon container hover effect */
-.icon-container:hover .top-icon {
+.social-card:hover .parent_container .top-element {
   transform: translateY(100%);
-  opacity: 0;
 }
 
-.icon-container:hover .bottom-icon {
+.social-card:hover .parent_container .bottom-element {
   bottom: 0;
-  opacity: 1;
 }
 
-/* Title container hover effect */
-.title-container:hover .top-title {
+.social-card:hover .parent_container .top-element_1 {
   transform: translateY(-100%);
-  opacity: 0;
 }
 
-.title-container:hover .bottom-title {
+.social-card:hover .parent_container .bottom-element_1 {
   top: 0;
-  opacity: 1;
 }
 
-/* Parent card hover effect */
-.social-card:hover .top-icon {
-  transform: translateY(100%);
-  opacity: 0;
-}
-
-.social-card:hover .bottom-icon {
-  bottom: 0;
-  opacity: 1;
-}
-
-.social-card:hover .top-title {
-  transform: translateY(-100%);
-  opacity: 0;
-}
-
-.social-card:hover .bottom-title {
-  top: 0;
-  opacity: 1;
+@media (max-width: 768px) {
+  .parent_container > *,
+  .parent_container:hover .top-element,
+  .parent_container:hover .bottom-element,
+  .parent_container:hover .top-element_1,
+  .parent_container:hover .bottom-element_1 {
+    /* Reset transition and transformation properties */
+    transition: none;
+    transform: none;
+    bottom: auto;
+    top: auto;
+  }
 }

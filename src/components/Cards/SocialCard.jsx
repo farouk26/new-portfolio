@@ -7,21 +7,32 @@ function SocialCard({
   title_2,
 }) {
   return (
-    <div className="social-card lg:h-[4.5rem] h-[6.3rem] w-full bg-white-200 rounded-2xl">
-      <div className="w-full h-full flex lg:flex-row flex-col justify-center items-center lg:gap-2 gap-2">
-        <div className="icon-container relative overflow-hidden">
-          <span className="top-icon text-2xl text-dark-100">
-            {IconComponent}
-          </span>
-          <span className="bottom-icon absolute left-0 bottom-full text-2xl text-dark-100">
-            {IconComponent_2}
-          </span>
-        </div>
-        <div className="title-container relative overflow-hidden min-w-fit max-w-fit">
-          <p className="top-title text-md text-dark-100 font-[400]">{title}</p>
-          <p className="bottom-title absolute left-0 top-full text-md text-dark-100 font-[400]">
-            {title_2}
-          </p>
+    <div className="social-card lg:h-[4.5rem] h-[6.3rem] w-full bg-white-200 rounded-2xl p-2">
+      {/* Parent Container */}
+      <div className="w-full h-full flex xl:flex-row flex-col gap-2 justify-center items-center">
+        {/* Sub Container */}
+        <div className="w-full min-h-fit flex justify-center">
+          {/* Container that has both Icons container and titles container */}
+          <div className="relative flex xl:flex-row flex-col gap-2 w-full justify-center items-center overflow-hidden">
+            {/* Icons Container */}
+            <div className="flex flex-col overflow-hidden parent_container">
+              <span className="top-element text-2xl text-dark-100">
+                {IconComponent}
+              </span>
+              <span className="bottom-element absolute bottom-full text-2xl text-dark-100 lg:block hidden">
+                {IconComponent_2}
+              </span>
+            </div>
+            {/* Titles Container */}
+            <div className="parent_container">
+              <p className="top-element_1 text-md text-dark-100 font-[400]">
+                {title}
+              </p>
+              <p className="bottom-element_1 absolute top-full text-md text-dark-100 font-[400] lg:block hidden">
+                {title_2}
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
