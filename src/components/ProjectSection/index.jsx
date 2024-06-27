@@ -83,6 +83,7 @@ function ProjectSection() {
           <TransparentButton
             mainText={"View More"}
             secondText={"My Projects"}
+            widthClasses={"lg:w-[14rem] xl:w-[13rem] 3xl:w-[14rem] w-[60%]"}
           />
         </Link>
       </div>

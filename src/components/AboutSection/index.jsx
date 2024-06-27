@@ -5,6 +5,8 @@ import { LiaBrainSolid } from "react-icons/lia"
 import { LuUsers2 } from "react-icons/lu"
 import { TbListDetails } from "react-icons/tb"
 import Link from "next/link"
+import ColorfulButton from "../Buttons/ColorfulButton"
+import TransparentButton from "../Buttons/TransparentButton"
 
 function AboutSection() {
   return (
@@ -33,14 +35,24 @@ function AboutSection() {
           </div>
           <div className="w-full flex md:flex-row flex-col items-center gap-4 xl:p-4 p-2">
             <Link href={"/"} rel="noopener noreferrer" target="_blank">
-              <button className="btn 2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-[90%] uppercase font-[500] text-white-200  bg-midnight-green hover:bg-midnight-teal hover:text-white-200 rounded-full">
-                Download Resume
-              </button>
+              <ColorfulButton
+                mainText={"Download Resume"}
+                secondText={"Click Me"}
+                widthClasses={
+                  "2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-[90%]"
+                }
+                btnSize={"xl:btn-md btn-sm"}
+                fontSize={"text-md"}
+              />
             </Link>
             <Link href={"/about"} rel="noopener noreferrer" target="_blank">
-              <button className="btn 2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-[90%] btn-outline font-[500] border-dark-100 text-black uppercase rounded-full">
-                More About Me
-              </button>
+              <TransparentButton
+                mainText={"More About Me"}
+                secondText={"You Won't Regret It"}
+                widthClasses={
+                  "2xl:w-[14rem] xl:w-[13rem] lg:w-[13rem] md:w-1/3 w-[90%]"
+                }
+              />
             </Link>
           </div>
         </div>

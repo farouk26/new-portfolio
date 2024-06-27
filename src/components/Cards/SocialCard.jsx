@@ -7,7 +7,7 @@ function SocialCard({
   title_2,
 }) {
   return (
-    <div className="social-card lg:h-[4.5rem] h-[6.3rem] w-full bg-white-200 rounded-2xl p-2">
+    <div className="social-card lg:h-[4.5rem] h-[6.3rem] w-full bg-white-200 rounded-2xl p-2 cursor-pointer">
       {/* Parent Container */}
       <div className="w-full h-full flex xl:flex-row flex-col gap-2 justify-center items-center">
         {/* Sub Container */}

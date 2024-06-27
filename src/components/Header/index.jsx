@@ -19,7 +19,13 @@ function Header() {
         </p>
       </div>
       <div className="w-full flex justify-center items-center">
-        <ColorfulButton mainText={"Contact Me"} secondText={"Today"} />
+        <ColorfulButton
+          mainText={"Contact Me"}
+          secondText={"Today"}
+          widthClasses={"xl:w-[20%] md:w-[25%] w-[85%]"}
+          btnSize={"xl:btn-lg btn-md"}
+          fontSize={"text-lg"}
+        />
       </div>
     </section>
   )

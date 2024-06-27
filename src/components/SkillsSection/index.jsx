@@ -4,6 +4,7 @@ import { TbBrandNextjs } from "react-icons/tb"
 import { FaReact } from "react-icons/fa"
 import { RiJavascriptFill } from "react-icons/ri"
 import { SiTailwindcss } from "react-icons/si"
+import TransparentButton from "../Buttons/TransparentButton"
 
 function SkillSection() {
   return (
@@ -59,9 +60,11 @@ function SkillSection() {
         </div>
       </div>
       <div className="w-full xl:mt-8 mt-10 flex justify-center">
-        <button className="btn btn-outline border-black text-black uppercase font-[500] rounded-full lg:w-[14rem] xl:w-[13rem] 3xl:w-[14rem] w-[60%]">
-          View More
-        </button>
+        <TransparentButton
+          mainText={"View More"}
+          secondText={"My Skills"}
+          widthClasses={"lg:w-[14rem] xl:w-[13rem] 3xl:w-[14rem] w-[60%]"}
+        />
       </div>
     </section>
   )
