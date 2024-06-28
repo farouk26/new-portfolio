@@ -6,7 +6,7 @@ function EducationCard({ occupation, organization, major, period }) {
     <div className="xl:h-[18rem] 2xl:h-[19rem] 3xl:h-[17rem] min-h-fit w-full bg-white-200 rounded-3xl p-4">
       <div className="flex flex-col w-full h-full gap-4 xl:p-4 p-2">
         <div className="w-full min-h-fit">
-          <span className="text-3xl text-white-200 bg-dark-100 rounded-full xl:w-14 xl:h-14 w-12 h-12 flex justify-center items-center">
+          <span className="text-3xl text-white-200 bg-midnight-teal rounded-full xl:w-14 xl:h-14 w-12 h-12 flex justify-center items-center">
             <PiStudent />
           </span>
         </div>
@@ -15,7 +15,7 @@ function EducationCard({ occupation, organization, major, period }) {
             <h2 className="xl:text-3xl text-2xl font-[500] text-dark-100">
               {occupation}
             </h2>
-            <p className="xl:text-lg text-md font-[500] text-dark-100">
+            <p className="xl:text-lg text-md font-[500] text-midnight-green">
               {major}
             </p>
             <p className="xl:text-lg text-md font-[400] text-dark-100">

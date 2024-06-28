@@ -1,3 +1,4 @@
+import ColorfulButton from "@/components/Buttons/ColorfulButton"
 import Layout from "@/components/Layout"
 import React from "react"
 
@@ -41,9 +42,11 @@ function ContactPage() {
                     className="w-full bg-white-100 rounded-2xl p-4 placeholder-dark-200 text-dark-100 min-h-full resize-none"
                   ></textarea>
                 </div>
-                <button className="btn btn-md rounded-2xl bg-dark-200 text-white-200 uppercase hover:bg-white-200 hover:text-dark-200">
-                  Submit
-                </button>
+                <ColorfulButton
+                  btnSize={"btn-md"}
+                  mainText={"Submit"}
+                  secondText={"Send Your Message"}
+                />
               </div>
             </div>
           </div>

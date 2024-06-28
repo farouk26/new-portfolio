@@ -8,7 +8,7 @@ function ColorfulButton({
   fontSize,
 }) {
   return (
-    <div
+    <button
       className={`button bg-midnight-teal btn ${btnSize} ${widthClasses} rounded-full overflow-hidden flex items-center justify-center cursor-pointer relative`}
     >
       <span
@@ -17,11 +17,11 @@ function ColorfulButton({
         {mainText}
       </span>
       <span
-        className={`text-white-200 font-[400] ${fontSize} uppercase additional-text`}
+        className={`text-white-200 font-[400] ${fontSize} uppercase additional-text w-full`}
       >
         {secondText}
       </span>
-    </div>
+    </button>
   )
 }
 

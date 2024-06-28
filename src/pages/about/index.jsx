@@ -7,6 +7,8 @@ import React from "react"
 import { GoDotFill } from "react-icons/go"
 import { TbBriefcase } from "react-icons/tb"
 import { CiRainbow } from "react-icons/ci"
+import ColorfulButton from "@/components/Buttons/ColorfulButton"
+import TransparentButton from "@/components/Buttons/TransparentButton"
 
 function AboutPage() {
   return (
@@ -18,31 +20,40 @@ function AboutPage() {
             {/* First Column */}
             <div className="xl:w-[52%] h-full w-full bg-white-200 rounded-3xl flex flex-col gap-8 p-9 justify-between">
               <div className="flex flex-col gap-4 w-full min-h-fit">
-                <p className="text-dark-100 font-[500] text-3xl">About me</p>
+                <p className="font-[500] text-3xl text-dark-100">About me</p>
                 <h1 className="text-dark-100 xl:text-7xl text-6xl font-[500]">
                   Creative Frontend Web Developer
                 </h1>
               </div>
               <div className="w-full flex gap-3 xl:flex-row flex-col justify-center">
-                <button className="btn btn-lg bg-dark-200 xl:w-[49%] w-full text-white-200 font-[300] uppercase rounded-full">
-                  Get In Touch
-                </button>
-                <button className="btn btn-lg btn-ghost border-dark-100 text-dark-100 xl:w-[49%] w-full hover:text-dark-100 hover:border-dark-100 font-[300] uppercase rounded-full">
-                  Download My CV
-                </button>
+                <ColorfulButton
+                  mainText={"Get In Touch"}
+                  secondText={"Contact Me"}
+                  widthClasses={"xl:w-[49%] w-full"}
+                  btnSize={"btn-lg"}
+                />
+                <TransparentButton
+                  mainText={"Download My CV"}
+                  secondText={"See My Resume"}
+                  btnSize={"btn-lg"}
+                  widthClasses={"xl:w-[49%] w-full"}
+                />
               </div>
             </div>
             {/* Second Column */}
             <div className="h-full xl:w-[48%] w-full flex flex-col gap-4">
               <div className="h-[60%] w-full bg-white-200 rounded-3xl p-8 flex items-center">
                 <p className="text-dark-100 font-[300] xl:text-lg 3xl:text-xl">
-                  I&apos;m a dedicated Front-End Developer with experience in
-                  collaborative team projects and a strong background in
-                  creating responsive and visually appealing web interfaces.
-                  Skilled in HTML/CSS, JavaScript, Tailwind CSS, React, Next.js
-                  and Firebase. I actively participated in four distinct
-                  projects, collaborating with different teams and showcasing my
-                  versatility as a developer.
+                  I&apos;m a dedicated{" "}
+                  <span className="text-midnight-green font-[500]">
+                    Front-End Developer
+                  </span>{" "}
+                  with experience in collaborative team projects and a strong
+                  background in creating responsive and visually appealing web
+                  interfaces. Skilled in HTML/CSS, JavaScript, Tailwind CSS,
+                  React, Next.js and Firebase. I actively participated in four
+                  distinct projects, collaborating with different teams and
+                  showcasing my versatility as a developer.
                 </p>
               </div>
               <div className="h-[40%] w-full bg-white-200 rounded-3xl p-8 flex items-center">
