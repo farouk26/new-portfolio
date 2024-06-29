@@ -9,15 +9,15 @@ function ColorfulButton({
 }) {
   return (
     <button
-      className={`button bg-midnight-teal btn ${btnSize} ${widthClasses} rounded-full overflow-hidden flex items-center justify-center cursor-pointer relative`}
+      className={`button font-poppins bg-midnight-teal btn ${btnSize} ${widthClasses} rounded-full overflow-hidden flex items-center justify-center cursor-pointer relative`}
     >
       <span
-        className={`text-white-200 font-[400] ${fontSize} uppercase main-text`}
+        className={`text-white-200 font-poppins font-[400] ${fontSize} uppercase main-text`}
       >
         {mainText}
       </span>
       <span
-        className={`text-white-200 font-[400] ${fontSize} uppercase additional-text w-full`}
+        className={`text-white-200 font-poppins font-[400] ${fontSize} uppercase additional-text w-full`}
       >
         {secondText}
       </span>

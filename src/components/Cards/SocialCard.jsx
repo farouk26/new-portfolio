@@ -25,10 +25,10 @@ function SocialCard({
             </div>
             {/* Titles Container */}
             <div className="parent_container">
-              <p className="top-element_1 text-md text-dark-100 font-[400]">
+              <p className="top-element_1 font-poppins text-md text-dark-100 font-[400]">
                 {title}
               </p>
-              <p className="bottom-element_1 absolute top-full text-md text-dark-100 font-[400] lg:block hidden">
+              <p className="bottom-element_1 font-poppins absolute top-full text-md text-dark-100 font-[400] lg:block hidden">
                 {title_2}
               </p>
             </div>

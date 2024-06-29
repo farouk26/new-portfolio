@@ -10,11 +10,11 @@ function SkillSection() {
   return (
     <section className="min-h-fit w-full">
       <div className="min-h-fit w-full flex flex-col xl:gap-6 gap-4">
-        <div className="min-h-fit w-full flex flex-col gap-2 items-center p-4 lg:my-2 2xl:my-4 my-2">
+        <div className="min-h-fit w-full flex flex-col gap-2 items-center p-4 lg:my-2 2xl:my-4 my-2 font-lora">
           <h2 className="lg:text-5xl xl:text-6xl 3xl:text-5xl text-4xl font-[500] text-black">
             Top Skills
           </h2>
-          <p className="lg:text-xl xl:text-lg 3xl:text-2xl text-md text-black font-[400] text-center">
+          <p className="lg:text-xl xl:text-lg 3xl:text-2xl text-md text-black font-[400] text-center font-poppins">
             The best of me to bring your product stand-out
           </p>
         </div>

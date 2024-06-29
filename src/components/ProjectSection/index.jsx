@@ -7,11 +7,11 @@ import TransparentButton from "../Buttons/TransparentButton"
 function ProjectSection() {
   return (
     <section className="min-h-fit w-full flex flex-col">
-      <div className="min-h-fit w-full flex flex-col gap-2 items-center p-4 lg:my-4 2xl:my-6 my-2">
+      <div className="min-h-fit w-full flex flex-col gap-2 items-center p-4 lg:my-4 2xl:my-6 my-2 font-lora">
         <h2 className="lg:text-5xl xl:text-6xl 3xl:text-5xl text-4xl font-[500] text-black">
           Selected Works
         </h2>
-        <p className="lg:text-xl xl:text-lg 3xl:text-2xl text-md text-black font-[400] text-center">
+        <p className="lg:text-xl xl:text-lg 3xl:text-2xl text-md text-black font-[400] text-center font-poppins">
           The Work I&apos;m Proud of
         </p>
       </div>

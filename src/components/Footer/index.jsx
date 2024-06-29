@@ -7,7 +7,7 @@ function Footer() {
     <section className="min-h-fit w-full flex flex-col gap-4">
       <div className="xl:min-h-[22rem] min-h-fit w-full bg-white-200 rounded-3xl flex xl:gap-8 gap-4 flex-col xl:pt-10 xl:pb-6 xl:px-6 md:p-7 py-8 px-5">
         <div className="flex flex-col w-full h-full xl:gap-4 gap-3 items-center">
-          <h2 className="xl:text-6xl lg:text-5xl text-4xl font-[400] text-dark-100 p-2 text-center">
+          <h2 className="xl:text-6xl lg:text-5xl text-4xl font-[400] text-dark-100 p-2 text-center font-lora">
             Ready to collaborate?
           </h2>
           <p className="xl:text-lg md:text-md text-sm text-dark-100 font-[300]">
