@@ -19,8 +19,8 @@ function AboutSection() {
           A web developer based in Algeria
         </p>
       </div>
-      <div className="min-h-fit flex xl:flex-row 2xl:flex-col flex-col xl:gap-4 gap-6 w-full">
-        <div className="min-h-fit w-full bg-white-200 rounded-3xl flex flex-col gap-2 p-4 xl:p-8 lg:p-6 2xl:justify-center">
+      <div className="min-h-fit flex xl:flex-row  xl:gap-4 gap-6 w-full">
+        <div className="min-h-fit w-full bg-white-200 rounded-3xl flex flex-col gap-2 p-4 xl:p-6 lg:p-6 2xl:justify-center">
           <div className="flex flex-col gap-4 xl:p-4 p-2 w-full font-lora">
             <h2 className="3xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl text-2xl xl:font-[500] font-[500] text-black lg:w-[90%] xl:w-[85%]">
               Passionate versatile front-end web developer and pixel perfect
@@ -33,7 +33,7 @@ function AboutSection() {
               not coding, I&apos;m into gaming and keeping up with tech trends.
             </p>
           </div>
-          <div className="w-full flex md:flex-row flex-col 2xl:justify-center items-center gap-4 xl:p-4 p-2">
+          <div className="w-full flex md:flex-row flex-col items-center gap-4 xl:p-4 p-2">
             <Link
               className="md:w-fit w-full flex justify-center"
               href={"/"}
@@ -43,9 +43,7 @@ function AboutSection() {
               <ColorfulButton
                 mainText={"Download Resume"}
                 secondText={"Click Me"}
-                widthClasses={
-                  "2xl:w-[21rem] xl:w-[13rem] lg:w-[13rem] md:w-[15rem] w-[90%]"
-                }
+                widthClasses={"xl:w-[13rem] lg:w-[13rem] md:w-[15rem] w-[90%]"}
                 btnSize={"xl:btn-md md:btn-md"}
                 fontSize={"text-md"}
               />
@@ -60,14 +58,12 @@ function AboutSection() {
                 mainText={"More About Me"}
                 secondText={"You Won't Regret It"}
                 btnSize={"xl:btn-md md:btn-md"}
-                widthClasses={
-                  "2xl:w-[21rem] xl:w-[13rem] lg:w-[13rem] md:w-[15rem] w-[90%]"
-                }
+                widthClasses={"xl:w-[13rem] lg:w-[13rem] md:w-[15rem] w-[90%]"}
               />
             </Link>
           </div>
         </div>
-        <figure className="xl:w-[63%] 2xl:w-full 3xl:w-[65%] w-full">
+        <figure className="xl:w-[63%] 2xl:w-[30%%] 3xl:w-[65%] w-full">
           <Image
             alt="avatar-image"
             src="/images/avatar.jpg"

@@ -11,10 +11,10 @@ function ContactPage() {
             {/* First Column */}
             <div className="h-full xl:w-[52%] w-full bg-white-200 rounded-3xl xl:p-6 p-4">
               <div className="flex flex-col w-full h-full justify-between p-4 gap-6">
-                <h1 className="text-dark-100 font-[500] xl:text-7xl text-5xl">
+                <h1 className="text-dark-100 font-[600] xl:text-7xl text-5xl font-lora">
                   I&apos;m ready to hear your thoughts
                 </h1>
-                <p className="text-dark-100 font-[400] xl:text-lg text-md">
+                <p className="text-dark-100 font-[400] xl:text-lg text-md font-poppins">
                   I&apos;m looking forward to connecting with you and exploring
                   how my skills in web development can contribute to your needs,
                   Don&apos;t hesitate to reach out to me for a meeting today.

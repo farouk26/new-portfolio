@@ -10,11 +10,11 @@ function StatusCard({ title, IconComponent, IconComponent2, status }) {
         <div className="flex flex-col gap-3 w-full">
           <span className="flex gap-1 items-center">
             <span className="text-green-700 text-2xl">{IconComponent2}</span>
-            <p className="text-dark-100 font-[500] xl:text-xl text-lg">
+            <p className="text-dark-100 font-[600] xl:text-xl text-lg font-lora">
               {title}
             </p>
           </span>
-          <p className="text-dark-200 font-[400] xl:text-md text-sm">
+          <p className="font-[500] xl:text-md text-sm font-poppins text-midnight-teal">
             {status}
           </p>
         </div>

@@ -9,10 +9,10 @@ function ProjectPage() {
       <Layout>
         <div className="min-h-fit w-full flex flex-col gap-6">
           <div className="bg-white-200 rounded-3xl min-h-[17rem] w-full flex flex-col items-center justify-center p-4 xl:gap-8 gap-4">
-            <h1 className="xl:text-[5.4rem] md:text-5xl text-4xl font-[400] text-dark-100 w-full text-center">
+            <h1 className="xl:text-[5.4rem] md:text-5xl text-4xl font-[600] text-dark-100 w-full text-center font-lora">
               The work I do
             </h1>
-            <p className="xl:text-xl text-md font-[400] text-dark-100 xl:w-1/2 w-full text-center">
+            <p className="xl:text-xl text-md font-[400] text-dark-100 xl:w-1/2 w-full text-center font-poppins">
               I create websites that focus on the user&apos;s needs and fit the
               product strategy
             </p>

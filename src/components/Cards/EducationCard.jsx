@@ -12,17 +12,17 @@ function EducationCard({ occupation, organization, major, period }) {
         </div>
         <div className="flex flex-col xl:justify-between gap-5 w-full h-full">
           <div className="w-full min-h-fit flex flex-col gap-1">
-            <h2 className="xl:text-3xl text-2xl font-[500] text-dark-100">
+            <h2 className="xl:text-3xl text-2xl font-[600] text-dark-100 font-lora">
               {occupation}
             </h2>
-            <p className="xl:text-lg text-md font-[500] text-midnight-green">
+            <p className="xl:text-lg text-md font-[500] text-midnight-green font-lora">
               {major}
             </p>
-            <p className="xl:text-lg text-md font-[400] text-dark-100">
+            <p className="xl:text-lg text-md font-[400] text-dark-100 font-poppins">
               {organization}
             </p>
           </div>
-          <span className="badge badge-outline xl:badge-lg badge-md border-dark-100 text-dark-100">
+          <span className="badge badge-outline xl:badge-lg badge-md border-dark-100 text-dark-100 font-poppins">
             {period}
           </span>
         </div>

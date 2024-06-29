@@ -19,9 +19,11 @@ function AboutPage() {
           <div className="xl:h-[33rem] h-full w-full flex xl:flex-row flex-col gap-4">
             {/* First Column */}
             <div className="xl:w-[52%] h-full w-full bg-white-200 rounded-3xl flex flex-col gap-8 p-9 justify-between">
-              <div className="flex flex-col gap-4 w-full min-h-fit">
-                <p className="font-[500] text-3xl text-dark-100">About me</p>
-                <h1 className="text-dark-100 xl:text-7xl text-6xl font-[500]">
+              <div className="flex flex-col gap-4 w-full min-h-fit font-lora">
+                <p className="font-[400] text-3xl text-dark-100 font-poppins">
+                  About me
+                </p>
+                <h1 className="text-dark-100 xl:text-7xl text-6xl font-[600]">
                   Creative Frontend Web Developer
                 </h1>
               </div>
@@ -43,7 +45,7 @@ function AboutPage() {
             {/* Second Column */}
             <div className="h-full xl:w-[48%] w-full flex flex-col gap-4">
               <div className="h-[60%] w-full bg-white-200 rounded-3xl p-8 flex items-center">
-                <p className="text-dark-100 font-[300] xl:text-lg 3xl:text-xl">
+                <p className="text-dark-100 font-[400] xl:text-lg 3xl:text-xl">
                   I&apos;m a dedicated{" "}
                   <span className="text-midnight-green font-[500]">
                     Front-End Developer
@@ -57,7 +59,7 @@ function AboutPage() {
                 </p>
               </div>
               <div className="h-[40%] w-full bg-white-200 rounded-3xl p-8 flex items-center">
-                <p className="text-dark-100 font-[300] xl:text-lg 3xl:text-xl">
+                <p className="text-dark-100 font-[400] xl:text-lg 3xl:text-xl">
                   For each project. I strive to create elegant and meaningful
                   solutions for the end user. I can work independently on
                   projects as well as collaboratively within a team if reauired.
@@ -67,7 +69,7 @@ function AboutPage() {
             </div>
           </div>
           <span className="w-full min-h-fit">
-            <h1 className="font-[500] text-6xl text-dark-100 p-2 text-center my-4">
+            <h1 className="font-[500] text-6xl text-dark-100 p-2 text-center my-4 font-lora">
               Summary
             </h1>
           </span>
@@ -96,9 +98,13 @@ function AboutPage() {
                     </div>
                     <span className="w-full xl:h-full flex flex-col gap-4 p-8 bg-white-200 rounded-3xl">
                       <p className="text-dark-100 font-[400] text-xl">
-                        This is one of my favorite quotes by Confucius.
+                        This is one of my favorite quotes by{" "}
+                        <span className="text-midnight-teal font-poppins font-[500]">
+                          Confucius
+                        </span>
+                        .
                       </p>
-                      <q className="text-dark-100 font-[500] text-4xl">
+                      <q className="text-dark-100 font-[500] text-4xl font-lora">
                         The man who moves a mountain begins by carrying away
                         small stones.
                       </q>
@@ -128,7 +134,7 @@ function AboutPage() {
             </div>
           </div>
           <span className="w-full min-h-fit text-center">
-            <h1 className="text-6xl font-[500] text-dark-100 p-2 my-4">
+            <h1 className="text-6xl font-[500] text-dark-100 p-2 my-4 font-lora">
               Education
             </h1>
           </span>

@@ -7,9 +7,9 @@ function InfoCard({ icon: IconComponent, title, description }) {
         {IconComponent}
       </span>
       <h2 className="3xl:text-xl 2xl:text-xl md:text-lg font-[600] text-black">
-        {title}{" "}
+        {title}
       </h2>
-      <p className="2xl:text-lg text-black font-[400] font-poppins">
+      <p className="text-md text-black font-[400] font-poppins">
         {description}
       </p>
     </div>
