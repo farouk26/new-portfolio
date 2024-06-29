@@ -5,7 +5,7 @@ function MobileProjectCard({ title, description, date, websiteType, Url }) {
   return (
     <section className="min-h-fit w-full flex flex-col lg:gap-4 md:gap-4 gap-3 items-center">
       <div className="min-h-fit w-full bg-white-200 rounded-3xl shadow-lg">
-        <figure className="lg:p-8 md:p-8 p-4">
+        <figure className="lg:p-8 md:p-6 p-4">
           <Image
             src={Url}
             alt="project-image"

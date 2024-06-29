@@ -63,7 +63,9 @@ function SkillSection() {
         <TransparentButton
           mainText={"View More"}
           secondText={"My Skills"}
-          widthClasses={"lg:w-[14rem] xl:w-[13rem] 3xl:w-[14rem] w-[60%]"}
+          widthClasses={
+            "lg:w-[14rem] xl:w-[13rem] md:w-[15rem] 3xl:w-[14rem] w-[60%]"
+          }
         />
       </div>
     </section>
