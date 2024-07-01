@@ -6,10 +6,10 @@ function InfoCard({ icon: IconComponent, title, description }) {
       <span className="text-dark-100 2xl:text-4xl text-3xl">
         {IconComponent}
       </span>
-      <h2 className="3xl:text-xl 2xl:text-xl md:text-lg font-[600] text-black">
+      <h2 className="3xl:text-xl 2xl:text-xl text-lg font-[600] text-dark-100 font-lora">
         {title}
       </h2>
-      <p className="text-md text-black font-[400] font-poppins">
+      <p className="md:text-md text-sm text-black font-[400] font-poppins">
         {description}
       </p>
     </div>

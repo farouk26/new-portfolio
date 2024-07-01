@@ -24,10 +24,10 @@ function TestimonialCard({ title, description, imgUrl, subtitle }) {
               />
             </figure>
             <div>
-              <h2 className="text-lg font-[500] text-dark-100 font-lora">
+              <h2 className="text-lg font-[600] text-dark-100 font-lora">
                 {title}
               </h2>
-              <p className="text-sm text-midnight-green font-[400] font-poppins">
+              <p className="text-sm text-midnight-green font-[500] font-poppins">
                 {subtitle}
               </p>
             </div>

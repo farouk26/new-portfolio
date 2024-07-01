@@ -16,57 +16,20 @@ function AboutPage() {
       <Layout>
         <div className="min-h-full w-full flex flex-col gap-5">
           {/* Header Section */}
-          <div className="xl:h-[33rem] h-full w-full flex xl:flex-row flex-col gap-4">
-            {/* First Column */}
-            <div className="xl:w-[52%] h-full w-full bg-white-200 rounded-3xl flex flex-col gap-8 p-9 justify-between">
-              <div className="flex flex-col gap-4 w-full min-h-fit font-lora">
-                <p className="font-[400] text-3xl text-dark-100 font-poppins">
-                  About me
-                </p>
-                <h1 className="text-dark-100 xl:text-7xl text-6xl font-[600]">
-                  Creative Frontend Web Developer
-                </h1>
-              </div>
-              <div className="w-full flex gap-3 xl:flex-row flex-col justify-center">
-                <ColorfulButton
-                  mainText={"Get In Touch"}
-                  secondText={"Contact Me"}
-                  widthClasses={"xl:w-[49%] w-full"}
-                  btnSize={"btn-lg"}
-                />
-                <TransparentButton
-                  mainText={"Download My CV"}
-                  secondText={"See My Resume"}
-                  btnSize={"btn-lg"}
-                  widthClasses={"xl:w-[49%] w-full"}
-                />
+          <div className="min-h-fit w-full flex lg:flex-row flex-col">
+            <div className="w-[60%] h-full">
+              <div className="w-full h-full bg-white-200 rounded-3xl flex flex-col gap-4 p-6">
+                <div className="min-h-fit w-full flex flex-col p-2 gap-4">
+                  <p className="text-2xl text-dark-100 font-poppins">
+                    About Me
+                  </p>
+                  <h1 className="text-dark-100 text-6xl font-lora font-[600]">
+                    I&apos;m versatlile front-end developer
+                  </h1>
+                </div>
               </div>
             </div>
-            {/* Second Column */}
-            <div className="h-full xl:w-[48%] w-full flex flex-col gap-4">
-              <div className="h-[60%] w-full bg-white-200 rounded-3xl p-8 flex items-center">
-                <p className="text-dark-100 font-[400] xl:text-lg 3xl:text-xl">
-                  I&apos;m a dedicated{" "}
-                  <span className="text-midnight-green font-[500]">
-                    Front-End Developer
-                  </span>{" "}
-                  with experience in collaborative team projects and a strong
-                  background in creating responsive and visually appealing web
-                  interfaces. Skilled in HTML/CSS, JavaScript, Tailwind CSS,
-                  React, Next.js and Firebase. I actively participated in four
-                  distinct projects, collaborating with different teams and
-                  showcasing my versatility as a developer.
-                </p>
-              </div>
-              <div className="h-[40%] w-full bg-white-200 rounded-3xl p-8 flex items-center">
-                <p className="text-dark-100 font-[400] xl:text-lg 3xl:text-xl">
-                  For each project. I strive to create elegant and meaningful
-                  solutions for the end user. I can work independently on
-                  projects as well as collaboratively within a team if reauired.
-                  I ensure seamless execution and optimal results.
-                </p>
-              </div>
-            </div>
+            <div className="w-[40%] h-full"></div>
           </div>
           <span className="w-full min-h-fit">
             <h1 className="font-[500] text-6xl text-dark-100 p-2 text-center my-4 font-lora">

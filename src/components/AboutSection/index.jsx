@@ -19,10 +19,10 @@ function AboutSection() {
           A web developer based in Algeria
         </p>
       </div>
-      <div className="min-h-fit flex xl:flex-row  xl:gap-4 gap-6 w-full">
-        <div className="min-h-fit w-full bg-white-200 rounded-3xl flex flex-col gap-2 p-4 xl:p-6 lg:p-6 2xl:justify-center">
+      <div className="min-h-fit flex xl:flex-row flex-col xl:gap-4 gap-6 w-full">
+        <div className="min-h-fit w-full bg-white-200 rounded-3xl flex flex-col gap-2 p-5 xl:p-6 lg:p-6 2xl:justify-center">
           <div className="flex flex-col gap-4 xl:p-4 p-2 w-full font-lora">
-            <h2 className="3xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl text-2xl xl:font-[500] font-[500] text-black lg:w-[90%] xl:w-[85%]">
+            <h2 className="3xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl text-2xl xl:font-[600] font-[500] text-black lg:w-[90%] xl:w-[85%]">
               Passionate versatile front-end web developer and pixel perfect
               guy.
             </h2>
@@ -43,7 +43,7 @@ function AboutSection() {
               <ColorfulButton
                 mainText={"Download Resume"}
                 secondText={"Click Me"}
-                widthClasses={"xl:w-[13rem] lg:w-[13rem] md:w-[15rem] w-[90%]"}
+                widthClasses={"xl:w-[13rem] lg:w-[13rem] md:w-[15rem] w-[95%]"}
                 btnSize={"xl:btn-md md:btn-md"}
                 fontSize={"text-md"}
               />
@@ -58,7 +58,7 @@ function AboutSection() {
                 mainText={"More About Me"}
                 secondText={"You Won't Regret It"}
                 btnSize={"xl:btn-md md:btn-md"}
-                widthClasses={"xl:w-[13rem] lg:w-[13rem] md:w-[15rem] w-[90%]"}
+                widthClasses={"xl:w-[13rem] lg:w-[13rem] md:w-[15rem] w-[95%]"}
               />
             </Link>
           </div>
