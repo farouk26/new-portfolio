@@ -45,8 +45,8 @@ function AboutPage() {
               </div>
             </div>
             {/* Second Column of Header */}
-            <div className="xl:w-[45%] 2xl:w-full w-full h-full flex flex-col gap-4">
-              <div className="w-full h-[1005] rounded-3xl bg-white-200 md:p-7 lg:p-6 xl:p-8 3xl:p-5 p-5">
+            <div className="xl:w-[45%] 2xl:w-full w-full min-h-full flex flex-col gap-4">
+              <div className="w-full h-[100%] rounded-3xl bg-white-200 md:p-7 lg:p-6 xl:p-8 3xl:p-5 p-5">
                 <p className="text-dark-100 font-poppins md:text-lg text-sm font-[400] p-2">
                   I&apos;m a dedicated front-end developer with experience in
                   collaborative team projects and a strong background in
@@ -58,7 +58,7 @@ function AboutPage() {
                 </p>
               </div>
               <div className="w-full h-[100%] rounded-3xl bg-white-200 md:p-7 lg:p-6 xl:p-8 3xl:p-5 p-5">
-                <p className="text-dark-100 font-poppins md:text-lg text-sm font-[400] p-2">
+                <p className="text-dark-100 font-poppins md:text-lg text-sm font-[400] p-2 h-full">
                   For each Porject, I strive to create elegant and meaningful
                   solutions for the end user. I can work independently on
                   projects as well as collaboratively within a team if reauired,
