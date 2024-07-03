@@ -9,7 +9,7 @@ function Navbar() {
     return classes.filter(Boolean).join(" ")
   }
   return (
-    <div className="navbar bg-white-200 2xl:mb-5 3xl:mb-2 rounded-full px-6 sticky top-2 lg:top-[2%] xl:top-[2%] z-50">
+    <div className="navbar bg-white-200 2x:mb-1  3xl:mb-2 rounded-full px-6 sticky top-2 lg:top-[2%] xl:top-[2%] z-50">
       <div className="navbar-start text-black flex gap-2 items-center w-full">
         <Menu as="div">
           <div>
@@ -76,15 +76,17 @@ function Navbar() {
       </div>
 
       <div className="navbar-center">
-        <figure className="lg:w-[3.8rem] w-[3rem]">
-          <Image
-            src={"/images/logo2.png"}
-            alt="logo"
-            height={250}
-            width={250}
-            className="w-full h-full object-fit"
-          />
-        </figure>
+        <Link href={"/"} rel="noopener noreferrer">
+          <figure className="lg:w-[3.8rem] w-[3rem]">
+            <Image
+              src={"/images/logo2.png"}
+              alt="logo"
+              height={250}
+              width={250}
+              className="w-full h-full object-fit"
+            />
+          </figure>
+        </Link>
       </div>
       <div className="navbar-end  lg:flex justify-end hidden w-full">
         <button className="btn btn-ghost rounded-full border-dark-100 uppercase text-black font-[500]">

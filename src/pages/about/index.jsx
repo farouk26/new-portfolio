@@ -9,6 +9,7 @@ import { TbBriefcase } from "react-icons/tb"
 import { CiRainbow } from "react-icons/ci"
 import ColorfulButton from "@/components/Buttons/ColorfulButton"
 import TransparentButton from "@/components/Buttons/TransparentButton"
+import Link from "next/link"
 
 function AboutPage() {
   return (
@@ -19,28 +20,42 @@ function AboutPage() {
           <div className="xl:h-[100%] min-h-fit w-full flex lg:flex-row 2xl:flex-col 3xl:flex-row flex-col gap-4">
             {/* First Column of Header */}
             <div className="xl:w-[55%] 2xl:w-full w-full min-h-full">
-              <div className="w-full min-h-full bg-white-200 rounded-3xl flex flex-col justify-between 2xl:gap-10 gap-12 p-6 xl:p-8">
+              <div className="w-full min-h-full bg-white-200 rounded-3xl flex flex-col justify-between 2xl:gap-16 gap-12 p-6 xl:p-8">
                 <div className="min-h-fit w-full flex flex-col p-2 lg:gap-4 gap-6">
-                  <p className="text-2xl text-dark-100 font-poppins">
+                  <p className="md:text-2xl text-lg text-dark-100 font-poppins">
                     About Me
                   </p>
                   <h1 className="text-dark-100 lg:text-7xl xl:text-7xl md:text-6xl text-5xl font-lora font-[600]">
-                    I&apos;m versatlile front-end developer
+                    I&apos;m versatile front-end developer
                   </h1>
                 </div>
-                <div className="flex gap-4 flex-row items-center md:justify-start justify-center w-full min-h-fit">
-                  <ColorfulButton
-                    mainText={"See My Resume"}
-                    secondText={"Download My CV"}
-                    widthClasses={"lg:w-[49%] xl:w-[49%] md:w-[35%] w-[49%]"}
-                    btnSize={"md:btn-lg btn-md"}
-                  />
-                  <TransparentButton
-                    mainText={"Get In Touch"}
-                    secondText={"Contact Me"}
-                    widthClasses={"lg:w-[49%] xl:w-[49%] md:w-[35%] w-[49%]"}
-                    btnSize={"md:btn-lg btn-md"}
-                  />
+                <div className="flex gap-4 md:flex-row flex-col items-center md:justify-start justify-center w-full min-h-fit">
+                  <Link
+                    href={"#"}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="md:w-fit lg:w-full w-full"
+                  >
+                    <ColorfulButton
+                      mainText={"See My Resume"}
+                      secondText={"Download My CV"}
+                      widthClasses={"lg:w-full xl:w-full md:w-[13rem] w-full"}
+                      btnSize={"md:btn-lg btn-md"}
+                    />
+                  </Link>
+                  <Link
+                    href={"#"}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="md:w-fit lg:w-full w-full"
+                  >
+                    <TransparentButton
+                      mainText={"Get In Touch"}
+                      secondText={"Contact Me"}
+                      widthClasses={"lg:w-full xl:w-full md:w-[13rem] w-full"}
+                      btnSize={"md:btn-lg btn-md"}
+                    />
+                  </Link>
                 </div>
               </div>
             </div>
