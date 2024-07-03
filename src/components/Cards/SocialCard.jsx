@@ -7,7 +7,7 @@ function SocialCard({
   title_2,
 }) {
   return (
-    <div className="social-card lg:h-[4.5rem] h-[6.3rem] w-full bg-white-200 rounded-2xl p-2 cursor-pointer">
+    <div className="social-card lg:h-[4.5rem] md:h-[6.3rem] h-[5rem] w-full bg-white-200 rounded-2xl p-2 cursor-pointer">
       {/* Parent Container */}
       <div className="w-full h-full flex xl:flex-row flex-col gap-2 justify-center items-center">
         {/* Sub Container */}
@@ -25,10 +25,10 @@ function SocialCard({
             </div>
             {/* Titles Container */}
             <div className="parent_container">
-              <p className="top-element_1 font-poppins text-md text-dark-100 font-[400]">
+              <p className="top-element_1 font-poppins md:text-md text-sm text-dark-100 font-[400]">
                 {title}
               </p>
-              <p className="bottom-element_1 font-poppins absolute top-full text-md text-dark-100 font-[400] lg:block hidden">
+              <p className="bottom-element_1 font-poppins absolute top-full md:text-md text-dark-100 font-[400] lg:block hidden">
                 {title_2}
               </p>
             </div>

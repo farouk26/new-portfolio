@@ -3,7 +3,7 @@ import ColorfulButton from "../Buttons/ColorfulButton"
 
 function Header() {
   return (
-    <section className="bg-white-200 rounded-3xl min-h-fit flex flex-col gap-5 lg:gap-4 xl:gap-6 3xl:gap-7 xl:p-6 p-8">
+    <section className="bg-white-200 rounded-3xl min-h-fit flex flex-col gap-5 lg:gap-4 xl:gap-6 3xl:gap-7 xl:p-6 p-6">
       {/* Titles & Paragraph */}
       <div className="flex flex-col text-dark-100 items-center xl:p-4 gap-4 lg:gap-3 xl:gap-4 2xl:gap-6 3xl:gap-6">
         <h2 className="font-lora text-xl xl:text-2xl font-[500]">
@@ -22,7 +22,7 @@ function Header() {
         <ColorfulButton
           mainText={"Contact Me"}
           secondText={"Today"}
-          widthClasses={"xl:w-[22%] 2xl:w-[25%] md:w-[40%] w-[85%]"}
+          widthClasses={"xl:w-[26%] 2xl:w-[25%] md:w-[40%] w-[95%]"}
           btnSize={"xl:btn-lg btn-md"}
           fontSize={"xl:text-lg md:text-md"}
         />

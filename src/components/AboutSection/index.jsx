@@ -11,22 +11,22 @@ import TransparentButton from "../Buttons/TransparentButton"
 function AboutSection() {
   return (
     <section className="min-h-fit w-full flex flex-col gap-4">
-      <div className="min-h-fit w-full flex flex-col gap-2 items-center py-4 mb-2 font-lora">
-        <h2 className="lg:text-5xl xl:text-6xl 3xl:text-5xl text-4xl font-[500] text-black">
+      <div className="min-h-fit w-full flex flex-col gap-2 items-center py-2 mb-1 font-lora">
+        <h2 className="lg:text-5xl xl:text-6xl 3xl:text-5xl md:text-4xl text-3xl text-center font-[600] text-black">
           About me
         </h2>
-        <p className="lg:text-xl xl:text-lg 3xl:text-2xl text-md text-black font-[400] font-poppins">
-          A web developer based in Algeria
+        <p className="lg:text-xl xl:text-lg 3xl:text-2xl md:text-md text-sm text-black font-[400] text-center font-poppins">
+          A front-end web developer based in algeria
         </p>
       </div>
       <div className="min-h-fit flex xl:flex-row flex-col xl:gap-4 gap-6 w-full">
         <div className="min-h-fit w-full bg-white-200 rounded-3xl flex flex-col gap-2 p-5 xl:p-6 lg:p-6 2xl:justify-center">
           <div className="flex flex-col gap-4 xl:p-4 p-2 w-full font-lora">
-            <h2 className="3xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl text-2xl xl:font-[600] font-[500] text-black lg:w-[90%] xl:w-[85%]">
+            <h2 className="3xl:text-4xl xl:text-4xl lg:text-3xl md:text-3xl text-2xl xl:font-[600] font-[500] text-dark-100 lg:w-[90%] xl:w-[85%]">
               Passionate versatile front-end web developer and pixel perfect
               guy.
             </h2>
-            <p className="3xl:text-lg 2xl:text-lg text-md font-[400] text-black font-poppins">
+            <p className="3xl:text-lg 2xl:text-lg md:text-md text-sm font-[400] text-dark-100 font-poppins">
               I&apos;m a front-end web developer with a background in plant
               science, specializing in creating user-friendly, attractive web
               interfaces. I love teamwork and learning new things. When I&apos;m
