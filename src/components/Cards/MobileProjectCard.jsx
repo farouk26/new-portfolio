@@ -5,7 +5,7 @@ function MobileProjectCard({ title, description, date, websiteType, Url }) {
   return (
     <section className="min-h-fit w-full flex flex-col lg:gap-4 md:gap-4 gap-3 items-center">
       <div className="min-h-fit w-full bg-white-200 rounded-3xl shadow-lg">
-        <figure className="lg:p-8 md:p-6 p-4">
+        <figure className="lg:p-8 p-4">
           <Image
             src={Url}
             alt="project-image"
@@ -26,7 +26,7 @@ function MobileProjectCard({ title, description, date, websiteType, Url }) {
             </p>
           </div>
           <div className="w-full flex flex-col gap-2 font-lora">
-            <h2 className="lg:text-xl md:text-3xl text-2xl font-[600] text-dark-100">
+            <h2 className="lg:text-xl text-2xl font-[600] text-dark-100">
               {title}
             </h2>
             <p className="md:text-md text-sm font-[400] text-dark-100 font-poppins">

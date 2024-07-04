@@ -15,7 +15,7 @@ function ProjectSection() {
           The Work I&apos;m Proud of
         </p>
       </div>
-      <div className="xl:flex xl:flex-row flex-col gap-4 hidden">
+      <div className="xl:flex xl:flex-row flex-col gap-4">
         <ProjectCard
           title={"Unify."}
           Url={"/images/unify.png"}
@@ -33,26 +33,6 @@ function ProjectSection() {
           }
           webType={"Movie Platform"}
           date={"2023"}
-        />
-      </div>
-      <div className="xl:hidden flex md:flex-row flex-col md:gap-4 gap-6">
-        <MobileProjectCard
-          title={"Unify."}
-          description={
-            "An online platform fostering community by promoting the sharing and reuse of various items among members."
-          }
-          date={"2023"}
-          websiteType={"Community Sharing"}
-          Url={"/images/unify.png"}
-        />
-        <MobileProjectCard
-          title={"Reelio"}
-          description={
-            "An innovative movie platform delivering seamless exploration of films and series for passionate enthusiasts."
-          }
-          date={"2023"}
-          websiteType={"Movie Platform"}
-          Url={"/images/reelio.png"}
         />
       </div>
       <div className="w-full xl:mt-10 mt-8">
