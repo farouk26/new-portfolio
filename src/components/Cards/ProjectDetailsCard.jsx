@@ -34,12 +34,7 @@ export default function ProjectDetailsCard() {
       {/* Project Detail Section */}
       <div className="w-full min-h-full flex lg:flex-row flex-col gap-4">
         {/* 1st Column */}
-        <div className="w-[30%] min-h-fit flex flex-col gap-4">
-          <div className="w-full h-[5rem] rounded-full bg-white-200">Hello</div>
-          <div className="w-full h-[5rem] rounded-full bg-white-200">Hello</div>
-          <div className="w-full h-[5rem] rounded-full bg-white-200">Hello</div>
-          <div className="w-full h-[5rem] rounded-full bg-white-200">Hello</div>
-        </div>
+        <div className="w-[30%] min-h-fit flex flex-col gap-4"></div>
         {/* 2nd Column */}
         <div className="w-[70%] min-h-fit flex flex-col gap-4">
           {/* Overview */}
