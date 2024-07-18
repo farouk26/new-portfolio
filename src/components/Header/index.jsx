@@ -1,23 +1,32 @@
 import React from "react"
+import ColorfulButton from "../Buttons/ColorfulButton"
 
 function Header() {
   return (
-    <section className="bg-white-200 rounded-3xl min-h-fit flex flex-col xl:p-7 p-4 gap-4">
-      <div className="flex flex-col gap-4 text-black justify-center items-center 3xl:gap-8 lg:p-6">
-        <h2 className="lg:text-3xl text-xl font-[400]">
-          Hello,I&apos;m Farouk
+    <section className="bg-white-200 rounded-3xl min-h-fit flex flex-col gap-5 lg:gap-4 xl:gap-6 3xl:gap-7 xl:p-6 p-6">
+      {/* Titles & Paragraph */}
+      <div className="flex flex-col text-dark-100 items-center xl:p-4 gap-4 lg:gap-3 xl:gap-4 2xl:gap-6 3xl:gap-6">
+        <h2 className="font-lora text-xl xl:text-2xl font-[500]">
+          Hello, I&apos;m Farouk
         </h2>
-        <h1 className="xl:text-[4.8rem] text-4xl font-[500] text-center xl:w-[90%] 3xl:w-[95%] 3xl:text-8xl xl:leading-tight lg:w-fit">
-          I&apos;m bringing ideas to life with lasting impact
+        <h1 className="font-lora text-center md:text-5xl md:leading-tight 2xl:leading-tight xl:leading-tight 3xl:leading-tight lg:text-5xl xl:text-6xl 2xl:text-6xl 3xl:text-7xl text-4xl font-[600] w-full md:w-[95%] lg:w-[70%] lg:leading-tight xl:w-[90%] 3xl:w-[90%]">
+          Building web wonders that inspire and captivate.
         </h1>
-        <p className="text-xl w-full lg:w-1/2 xl:w-2/3 text-center">
+        <p className="font-poppins md:text-md lg:text-lg text-sm md:w-[45%] w-[85%] lg:w-[50%] xl:w-[50%] 3xl:w-[80%] 2xl:w-[80%] text-center">
           I create digital websites that focus on the user&apos;s needs and fit
           the strategy.
         </p>
       </div>
-      <button className="btn btn-outline btn-md font-[400] lg:btn-lg uppercase rounded-full w-[85%] lg:w-[25%] xl:w-[20%] self-center mb-2 bg-black text-white-200">
-        Contact Me
-      </button>
+      {/* Button */}
+      <div className="w-full flex justify-center items-center">
+        <ColorfulButton
+          mainText={"Contact Me"}
+          secondText={"Today"}
+          widthClasses={"xl:w-[26%] 2xl:w-[25%] md:w-[40%] w-[95%]"}
+          btnSize={"xl:btn-lg btn-md"}
+          fontSize={"xl:text-lg md:text-md"}
+        />
+      </div>
     </section>
   )
 }

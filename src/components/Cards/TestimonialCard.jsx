@@ -6,9 +6,9 @@ import PreviousButton from "../Carousel/Testimonials/PreviousButton"
 function TestimonialCard({ title, description, imgUrl, subtitle }) {
   return (
     <div className="h-full w-full">
-      <div className="bg-white-200 flex xl:flex-col flex-col-reverse rounded-3xl xl:min-h-[19rem] lg:h-[15rem] md:h-[14rem] h-[22.6rem] xl:p-7 p-3 xl:justify-between gap-1">
+      <div className="bg-white-200 flex xl:flex-col flex-col-reverse rounded-3xl xl:min-h-[19rem] lg:h-[15rem] md:h-[14rem] h-[23.6rem] xl:p-7 p-5 xl:justify-between gap-1">
         <div className="h-full w-full p-2">
-          <p className="xl:text-2xl lg:text-lg text-md font-[400] text-dark-100">
+          <p className="xl:text-2xl lg:text-lg text-md font-poppins font-[400] text-dark-100 h-full leading-normal">
             {description}
           </p>
         </div>
@@ -24,8 +24,12 @@ function TestimonialCard({ title, description, imgUrl, subtitle }) {
               />
             </figure>
             <div>
-              <h2 className="text-lg font-[500] text-dark-100">{title}</h2>
-              <p className="text-sm text-gray-600 font-[300]">{subtitle}</p>
+              <h2 className="text-lg font-[600] text-dark-100 font-lora">
+                {title}
+              </h2>
+              <p className="text-sm text-midnight-green font-[500] font-poppins">
+                {subtitle}
+              </p>
             </div>
           </div>
           <div className="xl:flex gap-2 items-center hidden">

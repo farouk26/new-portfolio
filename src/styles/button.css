@@ -1,0 +1,164 @@
+/* This CSS file is for both trasnparent button hover effect and the colorful ones */
+
+.button {
+  position: relative;
+  transform: scaleX(1);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1);
+  overflow: hidden;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #003840; /* Initial background color */
+  transition:
+    transform 0.5s cubic-bezier(0.4, 0, 0, 1),
+    border-radius 0.5s cubic-bezier(0.4, 0, 0, 1);
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 50% 0 0;
+  transform: translateY(100%);
+  z-index: 0;
+}
+
+.button:hover {
+  background-color: #003840; /* Hover background color */
+}
+
+.button:hover::after {
+  background: #004953; /* Hover background color */
+  transform: translateY(0%);
+  border-radius: 0;
+}
+
+.button span {
+  position: relative;
+  z-index: 1;
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.button .main-text {
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.button .additional-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.button:hover .main-text {
+  opacity: 0;
+  transform: translateY(-60px);
+}
+
+.button:hover .additional-text {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+.button span::after {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1);
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  z-index: 1;
+  transform: translate(-50%, 100%);
+}
+
+.button:hover span::after {
+  transform: translate(-50%, 0);
+}
+
+/* CSS of transparent Button starts here */
+
+.btn_transparent > * {
+  transition: all ease-in-out 0.4s;
+}
+
+.btn_transparent:hover .btn__top {
+  transform: translateY(100%);
+}
+
+.btn_transparent:hover .btn__bottom {
+  bottom: 0;
+}
+
+/* CSS Of the toggle button */
+
+#checkbox {
+  display: none;
+}
+
+.toggle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition-duration: 0.5s;
+}
+
+.bars {
+  width: 100%;
+  height: 4px;
+  background-color: #101418;
+  border-radius: 4px;
+}
+
+#bar2 {
+  transition-duration: 0.8s;
+}
+
+#bar1,
+#bar3 {
+  width: 70%;
+}
+
+#checkbox:checked + .toggle .bars {
+  position: absolute;
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked + .toggle #bar2 {
+  transform: scaleX(0);
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked + .toggle #bar1 {
+  width: 100%;
+  transform: rotate(45deg);
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked + .toggle #bar3 {
+  width: 100%;
+  transform: rotate(-45deg);
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked + .toggle {
+  transition-duration: 0.5s;
+  transform: rotate(180deg);
+}

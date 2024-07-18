@@ -1,0 +1,37 @@
+.social-card {
+  transition: all ease-in-out 0.4s;
+}
+
+.social-card .parent_container > * {
+  transition: all ease-in-out 0.4s;
+}
+
+.social-card:hover .parent_container .top-element {
+  transform: translateY(100%);
+}
+
+.social-card:hover .parent_container .bottom-element {
+  bottom: 0;
+}
+
+.social-card:hover .parent_container .top-element_1 {
+  transform: translateY(-100%);
+}
+
+.social-card:hover .parent_container .bottom-element_1 {
+  top: 0;
+}
+
+@media (max-width: 768px) {
+  .parent_container > *,
+  .parent_container:hover .top-element,
+  .parent_container:hover .bottom-element,
+  .parent_container:hover .top-element_1,
+  .parent_container:hover .bottom-element_1 {
+    /* Reset transition and transformation properties */
+    transition: none;
+    transform: none;
+    bottom: auto;
+    top: auto;
+  }
+}

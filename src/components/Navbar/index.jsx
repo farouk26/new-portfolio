@@ -9,7 +9,7 @@ function Navbar() {
     return classes.filter(Boolean).join(" ")
   }
   return (
-    <div className="navbar bg-white-200 2xl:mb-5 lg:mb-3 rounded-full px-6 sticky top-2 lg:top-[3%] xl:top-[2%] z-50">
+    <div className="navbar bg-white-200 2x:mb-1  3xl:mb-2 rounded-full px-6 sticky top-2 lg:top-[2%] xl:top-[2%] z-50">
       <div className="navbar-start text-black flex gap-2 items-center w-full">
         <Menu as="div">
           <div>
@@ -33,9 +33,9 @@ function Navbar() {
             leaveFrom="transform opacity-100 scale-100"
             leaveTo="transform opacity-0 scale-95"
           >
-            <Menu.Items className="absolute px-8 lg:origin-left-0 left-0 z-10 lg:w-[30%] w-full divide-y divide-white lg:mt-8 mt-4 origin-top-0 bg-dark-100 text-white focus:outline-none py-2 rounded-3xl">
+            <Menu.Items className="absolute px-8 lg:origin-left-0 left-0 z-10 lg:w-[30%] w-full divide-y divide-white lg:mt-8 mt-4 origin-top-0 bg-midnight-teal text-white focus:outline-none py-2 rounded-3xl">
               <div className="flex flex-col gap-6 p-6">
-                <p className="text-gray-500 font-[500]">Menu</p>
+                <p className="text-gray-400 font-[500] text-lg">Menu</p>
                 <Menu.Item>
                   <Link
                     href="/"
@@ -76,15 +76,17 @@ function Navbar() {
       </div>
 
       <div className="navbar-center">
-        <figure className="lg:w-[3.8rem] w-[3rem]">
-          <Image
-            src={"/images/logo2.png"}
-            alt="logo"
-            height={250}
-            width={250}
-            className="w-full h-full object-fit"
-          />
-        </figure>
+        <Link href={"/"} rel="noopener noreferrer">
+          <figure className="lg:w-[3.8rem] w-[3rem]">
+            <Image
+              src={"/images/logo2.png"}
+              alt="logo"
+              height={250}
+              width={250}
+              className="w-full h-full object-fit"
+            />
+          </figure>
+        </Link>
       </div>
       <div className="navbar-end  lg:flex justify-end hidden w-full">
         <button className="btn btn-ghost rounded-full border-dark-100 uppercase text-black font-[500]">

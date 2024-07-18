@@ -1,5 +1,5 @@
 import MobileProjectCard from "@/components/Cards/MobileProjectCard"
-import ProjectCardPc from "@/components/Cards/ProjectCardPc"
+import ProjectCard from "@/components/Cards/ProjectCard"
 import Layout from "@/components/Layout"
 import React from "react"
 
@@ -8,19 +8,19 @@ function ProjectPage() {
     <section className="min-h-screen w-full bg-white-100">
       <Layout>
         <div className="min-h-fit w-full flex flex-col gap-6">
-          <div className="bg-white-200 rounded-3xl min-h-[17rem] w-full flex flex-col items-center justify-center p-4 xl:gap-8 gap-4">
-            <h1 className="xl:text-[5.4rem] md:text-5xl text-4xl font-[400] text-dark-100 w-full text-center">
-              The work I do
+          <div className="bg-white-200 rounded-3xl xl:min-h-[20rem] md:h-[13rem] lg:h-[16rem] min-h-fit w-full flex flex-col items-center justify-center xl:p-4 py-8 px-4 xl:gap-6 gap-4">
+            <h1 className="xl:text-[5.4rem] md:text-5xl lg:text-6xl text-4xl font-[600] text-dark-100 w-full text-center font-lora">
+              The Work I do
             </h1>
-            <p className="xl:text-xl text-md font-[400] text-dark-100 xl:w-1/2 w-full text-center">
+            <p className="xl:text-xl md:text-lg text-sm font-[400] text-dark-100 xl:w-1/2 md:w-[60%] w-full text-center font-poppins">
               I create websites that focus on the user&apos;s needs and fit the
               product strategy
             </p>
           </div>
           {/* Project Cards Section */}
-          <div className="min-h-fit w-full xl:flex flex-col gap-4 hidden">
-            <div className="flex gap-5">
-              <ProjectCardPc
+          <div className="min-h-fit w-full flex flex-col gap-4">
+            <div className="w-full min-h-fit flex md:flex-row flex-col gap-4">
+              <ProjectCard
                 title={"Unify."}
                 description={
                   "An online platform fostering community by promoting the sharing and reuse of various items among members."
@@ -29,7 +29,7 @@ function ProjectPage() {
                 webType={"Community Sharing"}
                 date={"2023"}
               />
-              <ProjectCardPc
+              <ProjectCard
                 title={"Neon City"}
                 description={
                   "An interactive mini-game, allowing users to personalize pre-generated stories by filling in the blanks."
@@ -39,9 +39,8 @@ function ProjectPage() {
                 date={"2023"}
               />
             </div>
-            <div className="flex gap-5">
-              {" "}
-              <ProjectCardPc
+            <div className="w-full min-h-fit flex md:flex-row flex-col gap-4">
+              <ProjectCard
                 title={"Alibaba Lite"}
                 description={
                   "An e-commerce website delivering seamless browsing and purchasing experiences for a diverse array of products."
@@ -50,7 +49,7 @@ function ProjectPage() {
                 webType={"E-Commerce"}
                 date={"2023"}
               />
-              <ProjectCardPc
+              <ProjectCard
                 title={"Reelio"}
                 description={
                   "An innovative movie platform delivering seamless exploration of films and series for passionate enthusiasts."
@@ -60,44 +59,6 @@ function ProjectPage() {
                 date={"2023"}
               />
             </div>
-          </div>
-          <div className="flex flex-col gap-4 xl:hidden">
-            <MobileProjectCard
-              title={"Unify."}
-              description={
-                "An online platform fostering community by promoting the sharing and reuse of various items among members."
-              }
-              date={"2023"}
-              websiteType={"Community Sharing"}
-              Url={"/images/unify.png"}
-            />
-            <MobileProjectCard
-              title={"Neon City"}
-              description={
-                "An interactive mini-game, allowing users to personalize pre-generated stories by filling in the blanks."
-              }
-              date={"2023"}
-              websiteType={"Mini-Game"}
-              Url={"/images/neoncity.png"}
-            />
-            <MobileProjectCard
-              title={"Alibaba Lite"}
-              description={
-                "An e-commerce website delivering seamless browsing and purchasing experiences for a diverse array of products."
-              }
-              date={"2023"}
-              websiteType={"E-commerce"}
-              Url={"/images/alibabalite.png"}
-            />
-            <MobileProjectCard
-              title={"Reelio"}
-              description={
-                "An innovative movie platform delivering seamless exploration of films and series for passionate enthusiasts."
-              }
-              date={"2023"}
-              websiteType={"Movie Platform"}
-              Url={"/images/reelio.png"}
-            />
           </div>
         </div>
       </Layout>

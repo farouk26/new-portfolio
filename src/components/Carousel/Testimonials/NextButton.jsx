@@ -7,7 +7,7 @@ function NextButton() {
   return (
     <button
       onClick={() => swiper.slideNext()}
-      className="btn btn-circle btn-ghost bg-white-100 text-dark-200 text-4xl hover:bg-dark-200 hover:text-white-200"
+      className="btn btn-circle btn-ghost bg-midnight-teal text-white-200 text-4xl hover:bg-midnight-green hover:text-white-200"
     >
       <MdOutlineNavigateNext />
     </button>

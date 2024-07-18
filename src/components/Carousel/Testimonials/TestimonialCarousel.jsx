@@ -21,7 +21,7 @@ function TestimonialCarousel() {
           <TestimonialCard
             title={"Darine Tag"}
             description={
-              "I had known Farouk as a friend who's always there to help whether it be technical or diplomatic. His energy was so influential that it brought positive impact on the whole team. An aspiring developer & An amazing team player"
+              "I had known farouk as a friend who's always there to help whether it be technical or diplomatic. His energy was so influential that it brought positive impact on the whole team. An aspiring developer & An amazing team player."
             }
             imgUrl={"/images/darinetag.png"}
             subtitle={"Front-End Developer"}
@@ -41,7 +41,7 @@ function TestimonialCarousel() {
           <TestimonialCard
             title={"Merzouk F. Zohra"}
             description={
-              "Had the pleasure of working with Farouk on a project. His creativity knows no bounds, He also showed a strong desire to learn new things and improve his skills. He was not shy to ask questions and seek feedback. He is a valuable asset to any team and I recommend him."
+              "Had the pleasure of working with farouk on a project, his creativity knows no bounds, he also showed a strong desire to learn new things and improve his skills, he was not shy to ask questions and seek feedback, he is a valuable asset to any team and I recommend him."
             }
             imgUrl={"/images/fatima.jpg"}
             subtitle={"Front-End Developer"}
@@ -51,7 +51,7 @@ function TestimonialCarousel() {
           <TestimonialCard
             title={"TakiEddine Dilmi"}
             description={
-              "Working alongside Farouk has been a truly enriching experience. His experience in front-end development and his knack for transforming designs into intuitive interfaces are impressive. I wholeheartedly endorse Farouk for any front-end development effort."
+              "Working alongside farouk has been a truly enriching experience, his experience in front-end development and his knack for transforming designs into intuitive interfaces are impressive. I wholeheartedly endorse farouk for any front-end development effort."
             }
             imgUrl={"/images/taki.jpg"}
             subtitle={"Front-End Developer"}
@@ -61,7 +61,7 @@ function TestimonialCarousel() {
           <TestimonialCard
             title={"Manel Haddoud"}
             description={
-              "I had the pleasure of working with Farouk on a movie project. His leadership skills were evident as he guided and motivated the team. Farouk was always keen to learn and his enthusiasm inspired us all to improve. He was always willing to help others which makes him a true team player."
+              "I had the pleasure of working with farouk on a movie project, his leadership skills were evident as he guided and motivated the team. Farouk was always keen to learn and his enthusiasm inspired us all to improve, he was always willing to help others which makes him a true team player."
             }
             imgUrl={"/images/manel.jpg"}
             subtitle={"Front-End Developer"}
