@@ -8,10 +8,14 @@ import Navbar from "@/components/Navbar"
 import ProjectSection from "@/components/ProjectSection"
 import SkillSection from "@/components/SkillsSection"
 import Socials from "@/components/Socials"
+import Head from "next/head"
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-white-100">
+      <Head>
+        <title>Farouk Zemmouri .</title>
+      </Head>
       <Layout>
         <div className="flex flex-col gap-4 min-h-fit">
           <Header />

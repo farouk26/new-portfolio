@@ -1,10 +1,14 @@
 import ColorfulButton from "@/components/Buttons/ColorfulButton"
 import Layout from "@/components/Layout"
+import Head from "next/head"
 import React from "react"
 
 function ContactPage() {
   return (
     <section className="min-h-screen w-full bg-white-100">
+      <Head>
+        <title>Contact</title>
+      </Head>
       <Layout>
         <div className="min-h-fit w-full">
           <div className="w-full xl:h-[32rem] h-full flex xl:flex-row gap-4 flex-col">

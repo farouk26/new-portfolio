@@ -1,11 +1,15 @@
 import MobileProjectCard from "@/components/Cards/MobileProjectCard"
 import ProjectCard from "@/components/Cards/ProjectCard"
 import Layout from "@/components/Layout"
+import Head from "next/head"
 import React from "react"
 
 function ProjectPage() {
   return (
     <section className="min-h-screen w-full bg-white-100">
+      <Head>
+        <title>Projects</title>
+      </Head>
       <Layout>
         <div className="min-h-fit w-full flex flex-col gap-6">
           <div className="bg-white-200 rounded-3xl xl:min-h-[20rem] md:h-[13rem] lg:h-[16rem] min-h-fit w-full flex flex-col items-center justify-center xl:p-4 py-8 px-4 xl:gap-6 gap-4">

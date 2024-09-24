@@ -10,10 +10,14 @@ import { CiRainbow } from "react-icons/ci"
 import ColorfulButton from "@/components/Buttons/ColorfulButton"
 import TransparentButton from "@/components/Buttons/TransparentButton"
 import Link from "next/link"
+import Head from "next/head"
 
 function AboutPage() {
   return (
     <section className="min-h-screen w-full bg-white-100">
+      <Head>
+        <title>About</title>
+      </Head>
       <Layout>
         <div className="min-h-full w-full flex flex-col gap-5">
           {/* Header Section */}
