@@ -24,13 +24,13 @@ function AboutPage() {
           <div className="xl:h-[100%] min-h-fit w-full flex lg:flex-row 2xl:flex-col 3xl:flex-row flex-col gap-4">
             {/* First Column of Header */}
             <div className="xl:w-[55%] 2xl:w-full w-full min-h-full">
-              <div className="w-full min-h-full bg-white-200 rounded-3xl flex flex-col justify-between 2xl:gap-16 gap-12 p-6 xl:p-8">
-                <div className="min-h-fit w-full flex flex-col p-2 lg:gap-4 gap-6">
+              <div className="w-full min-h-full bg-white-200 rounded-3xl flex flex-col justify-between gap-6 p-6 xl:p-8">
+                <div className="min-h-fit w-full flex flex-col p-2 lg:gap-8 gap-4">
                   <p className="md:text-2xl text-lg text-dark-100 font-poppins">
                     About Me
                   </p>
                   <h1 className="text-dark-100 lg:text-7xl xl:text-7xl md:text-6xl text-5xl font-lora font-[600]">
-                    I&apos;m versatile front-end developer
+                    I&apos;m versatile front-end developer.
                   </h1>
                 </div>
                 <div className="flex gap-4 md:flex-row flex-col items-center md:justify-start justify-center w-full min-h-fit">
@@ -48,7 +48,7 @@ function AboutPage() {
                     />
                   </Link>
                   <Link
-                    href={"#"}
+                    href={"/contact"}
                     rel="noopener noreferrer"
                     target="_blank"
                     className="md:w-fit lg:w-full w-full"
@@ -65,8 +65,8 @@ function AboutPage() {
             </div>
             {/* Second Column of Header */}
             <div className="xl:w-[45%] 2xl:w-full w-full min-h-full flex flex-col gap-4">
-              <div className="w-full h-[100%] rounded-3xl bg-white-200 md:p-7 lg:p-6 xl:p-8 3xl:p-5 p-5">
-                <p className="text-dark-100 font-poppins md:text-lg text-sm font-[400] p-2">
+              <div className="w-full h-[100%] rounded-3xl bg-white-200 md:p-6 lg:p-6 xl:p-8 3xl:p-5 p-5">
+                <p className="text-dark-100 font-poppins md:text-lg text-md font-[400] p-2">
                   I&apos;m a dedicated front-end developer with experience in
                   collaborative team projects and a strong background in
                   creating responsive and vosially appealing web interfaces.
@@ -76,8 +76,8 @@ function AboutPage() {
                   versatility as a developer.
                 </p>
               </div>
-              <div className="w-full h-[100%] rounded-3xl bg-white-200 md:p-7 lg:p-6 xl:p-8 3xl:p-5 p-5">
-                <p className="text-dark-100 font-poppins md:text-lg text-sm font-[400] p-2 h-full">
+              <div className="w-full h-[100%] rounded-3xl bg-white-200 md:p-6 lg:p-6 xl:p-8 3xl:p-5 p-5">
+                <p className="text-dark-100 font-poppins md:text-lg text-md font-[400] p-2 h-full">
                   For each Porject, I strive to create elegant and meaningful
                   solutions for the end user. I can work independently on
                   projects as well as collaboratively within a team if reauired,
@@ -87,7 +87,7 @@ function AboutPage() {
             </div>
           </div>
           <span className="w-full min-h-fit">
-            <h1 className="font-[500] text-6xl text-dark-100 p-2 text-center my-4 font-lora">
+            <h1 className="font-[500] lg:text-5xl xl:text-5xl 3xl:text-5xl md:text-4xl text-3xl text-dark-100 p-2 text-center lg:my-4 my-2 font-lora">
               Summary
             </h1>
           </span>
@@ -110,11 +110,11 @@ function AboutPage() {
                       <StatusCard
                         IconComponent={<TbBriefcase />}
                         IconComponent2={<GoDotFill />}
-                        title={"Available for Work"}
+                        title={"Available For Work"}
                         status={"Status"}
                       />
                     </div>
-                    <span className="w-full xl:h-[100%] 3xl:min-h-fit flex flex-col gap-4 p-8 bg-white-200 rounded-3xl">
+                    <span className="w-full xl:h-[100%] 3xl:min-h-fit flex flex-col gap-4 xl:p-6 md:p-8 p-6 bg-white-200 rounded-3xl">
                       <p className="text-dark-100 font-[400] text-xl 4xl:text-2xl">
                         This is one of my favorite quotes by{" "}
                         <span className="text-midnight-teal font-poppins font-[500]">
@@ -122,7 +122,7 @@ function AboutPage() {
                         </span>
                         .
                       </p>
-                      <q className="text-dark-100 font-[500] text-4xl 4xl:text-5xl font-lora h-full">
+                      <q className="text-dark-100 font-[500] xl:text-4xl text-3xl 4xl:text-5xl font-lora h-full">
                         The man who moves a mountain begins by carrying away
                         small stones.
                       </q>
@@ -143,7 +143,7 @@ function AboutPage() {
                       <StatusCard
                         IconComponent={<CiRainbow />}
                         title={"Remote & Freelance"}
-                        status={"Prefered work type"}
+                        status={"Prefered Work Type"}
                       />
                     </div>
                   </div>
@@ -152,7 +152,7 @@ function AboutPage() {
             </div>
           </div>
           <span className="w-full min-h-fit text-center">
-            <h1 className="text-6xl font-[500] text-dark-100 p-2 my-4 font-lora">
+            <h1 className="lg:text-5xl xl:text-5xl 3xl:text-5xl md:text-4xl text-3xl font-[500] text-dark-100 p-2 xl:my-4 my-2 font-lora">
               Education
             </h1>
           </span>
