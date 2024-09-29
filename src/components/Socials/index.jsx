@@ -27,7 +27,7 @@ function Socials() {
         icon_2={<BsArrowRight />}
       />
       <SocialCard
-        title_2={"Visit Link"}
+        title_2={"Copy"}
         icon={<FaDiscord />}
         title={"Discord"}
         icon_2={<BsArrowRight />}
