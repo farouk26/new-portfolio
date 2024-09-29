@@ -62,7 +62,7 @@ function SkillSection() {
       </div>
       <div className="w-full xl:mt-8 mt-8">
         <Link
-          href={"#"}
+          href={"/skills"}
           rel="noopener noreferrer"
           target="_blank"
           className="w-full flex justify-center"

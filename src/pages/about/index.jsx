@@ -35,7 +35,9 @@ function AboutPage() {
                 </div>
                 <div className="flex gap-4 md:flex-row flex-col items-center md:justify-start justify-center w-full min-h-fit">
                   <Link
-                    href={"#"}
+                    href={
+                      "https://drive.google.com/file/d/1RbqLl72psxlov5ADuBP_Dfxj0b1tkoHC/view?usp=sharing"
+                    }
                     rel="noopener noreferrer"
                     target="_blank"
                     className="md:w-fit lg:w-full w-full"

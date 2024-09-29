@@ -15,7 +15,7 @@ function ProjectSection() {
           The Work I&apos;m Proud of
         </p>
       </div>
-      <div className="xl:flex xl:flex-row flex-col gap-4">
+      <div className="flex xl:flex-row flex-col gap-4">
         <ProjectCard
           title={"Unify."}
           Url={"/images/unify.png"}

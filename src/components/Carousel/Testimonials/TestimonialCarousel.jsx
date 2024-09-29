@@ -24,7 +24,7 @@ function TestimonialCarousel() {
               "I had known farouk as a friend who's always there to help whether it be technical or diplomatic. His energy was so influential that it brought positive impact on the whole team. An aspiring developer & An amazing team player."
             }
             imgUrl={"/images/darinetag.png"}
-            subtitle={"Front-End Developer"}
+            subtitle={"Product Designer"}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -54,7 +54,7 @@ function TestimonialCarousel() {
               "Working alongside farouk has been a truly enriching experience, his experience in front-end development and his knack for transforming designs into intuitive interfaces are impressive. I wholeheartedly endorse farouk for any front-end development effort."
             }
             imgUrl={"/images/taki.jpg"}
-            subtitle={"Front-End Developer"}
+            subtitle={"Software Engineer"}
           />
         </SwiperSlide>
         <SwiperSlide>
@@ -64,7 +64,7 @@ function TestimonialCarousel() {
               "I had the pleasure of working with farouk on a movie project, his leadership skills were evident as he guided and motivated the team. Farouk was always keen to learn and his enthusiasm inspired us all to improve, he was always willing to help others which makes him a true team player."
             }
             imgUrl={"/images/manel.jpg"}
-            subtitle={"Front-End Developer"}
+            subtitle={"IT Engineer"}
           />
         </SwiperSlide>
         <SwiperSlide>

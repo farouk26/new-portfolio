@@ -36,7 +36,9 @@ function AboutSection() {
           <div className="w-full flex md:flex-row flex-col items-center gap-4 xl:p-4 p-2">
             <Link
               className="md:w-fit w-full flex justify-center"
-              href={"/"}
+              href={
+                "https://drive.google.com/file/d/1RbqLl72psxlov5ADuBP_Dfxj0b1tkoHC/view?usp=sharing"
+              }
               rel="noopener noreferrer"
               target="_blank"
             >

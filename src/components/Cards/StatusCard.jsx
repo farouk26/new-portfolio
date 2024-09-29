@@ -1,4 +1,5 @@
 import React from "react"
+import { motion } from "framer-motion"
 
 function StatusCard({ title, IconComponent, IconComponent2, status }) {
   return (
@@ -9,7 +10,29 @@ function StatusCard({ title, IconComponent, IconComponent2, status }) {
         </span>
         <div className="flex flex-col gap-2 w-full">
           <span className="flex gap-1 items-center">
-            <span className="text-green-800 text-2xl">{IconComponent2}</span>
+            <motion.div
+              className="text-green-800 text-xl border-opacity-5 rounded-full"
+              initial={{
+                scale: 1,
+                boxShadow: "0 0 0 0 #004953",
+              }}
+              animate={{
+                scale: [1, 1.2, 1],
+                boxShadow: [
+                  "0 0 0 0 #004953",
+                  "0 0 0 10px rgba(51, 217, 178, 0)",
+                  "0 0 0 0 rgba(51, 217, 178, 0)",
+                ],
+              }}
+              transition={{
+                duration: 4,
+                ease: "easeInOut",
+                times: [0, 0.5, 1],
+                repeat: Infinity,
+              }}
+            >
+              {IconComponent2}
+            </motion.div>{" "}
             <p className="text-dark-100 font-[600] xl:text-xl text-lg font-lora">
               {title}
             </p>

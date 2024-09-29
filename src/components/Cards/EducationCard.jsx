@@ -10,7 +10,7 @@ function EducationCard({ occupation, organization, major, period }) {
             <PiStudent />
           </span>
         </div>
-        <div className="flex flex-col xl:justify-between w-full h-full">
+        <div className="flex flex-col xl:justify-between w-full h-full gap-4">
           <div className="w-full min-h-fit flex flex-col gap-1">
             <h2 className="xl:text-3xl text-2xl font-[600] text-dark-100 font-lora">
               {occupation}
@@ -18,7 +18,7 @@ function EducationCard({ occupation, organization, major, period }) {
             <p className="xl:text-lg text-md font-[500] text-midnight-green font-lora">
               {major}
             </p>
-            <p className="xl:text-md text-md font-[400] text-dark-100 font-poppins">
+            <p className="xl:text-md text-sm font-[400] text-dark-100 font-poppins">
               {organization}
             </p>
           </div>
