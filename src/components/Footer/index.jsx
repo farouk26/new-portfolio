@@ -2,6 +2,7 @@ import React from "react"
 import { IoArrowUpCircleOutline } from "react-icons/io5"
 import Socials from "../Socials"
 import Link from "next/link"
+import ClipboardButton from "../Buttons/ClipboardButton"
 
 function Footer() {
   return (
@@ -15,7 +16,10 @@ function Footer() {
             Drop your message here !
           </p>
           <p className="xl:text-4xl lg:text-2xl md:text-lg text-md font-[400] text-dark-100 underline font-poppins">
-            faroukwebdesign@gmail.com
+            <ClipboardButton
+              text="faroukwebdesign@gmail.com"
+              gifSrc="/images/success.gif"
+            />
           </p>
         </div>
         <div className="flex w-full justify-center">
