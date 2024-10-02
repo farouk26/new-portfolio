@@ -8,14 +8,14 @@ function ProjectSection() {
   return (
     <section className="min-h-fit w-full flex flex-col">
       <div className="min-h-fit w-full flex flex-col gap-2 items-center p-4 lg:my-4 2xl:my-6 my-1 font-lora">
-        <h2 className="lg:text-5xl xl:text-6xl 3xl:text-5xl md:text-4xl text-3xl font-[600] text-black text-center">
+        <h2 className="lg:text-5xl xl:text-5xl 3xl:text-5xl md:text-4xl text-3xl font-[600] text-black text-center">
           Selected Works
         </h2>
         <p className="lg:text-xl xl:text-lg 3xl:text-xl md:text-md text-sm text-black font-[400] text-center font-poppins">
           The Work I&apos;m Proud of
         </p>
       </div>
-      <div className="xl:flex xl:flex-row flex-col gap-4">
+      <div className="flex xl:flex-row flex-col gap-4">
         <ProjectCard
           title={"Unify."}
           Url={"/images/unify.png"}

@@ -1,6 +1,8 @@
 import React from "react"
 import { IoArrowUpCircleOutline } from "react-icons/io5"
 import Socials from "../Socials"
+import Link from "next/link"
+import ClipboardButton from "../Buttons/ClipboardButton"
 
 function Footer() {
   return (
@@ -14,24 +16,35 @@ function Footer() {
             Drop your message here !
           </p>
           <p className="xl:text-4xl lg:text-2xl md:text-lg text-md font-[400] text-dark-100 underline font-poppins">
-            faroukwebdesign@gmail.com
+            <ClipboardButton
+              text="faroukwebdesign@gmail.com"
+              gifSrc="/images/success.gif"
+            />
           </p>
         </div>
         <div className="flex w-full justify-center">
-          <div className="xl:w-1/2 md:w-[65%] md:flex-row w-full flex xl:flex-row flex-col font-poppins md:justify-evenly xl:justify-between items-center md:gap-8 gap-4 md:my-4 my-2">
-            <p className="text-dark-100 font-[500] xl:text-xl md:text-lg text-md">
-              Projects
-            </p>
-            <p className="text-dark-100 font-[500] xl:text-xl md:text-lg text-md">
-              About me
-            </p>
-            <p className="text-dark-100 font-[500] xl:text-xl md:text-lg text-md">
-              Stack
-            </p>
-            <p className="text-dark-100 font-[500] xl:text-xl md:text-lg text-md">
-              Contact
-            </p>
-          </div>
+          <ul className="xl:w-1/2 md:w-[65%] md:flex-row w-full flex xl:flex-row flex-col font-poppins md:justify-evenly xl:justify-between items-center md:gap-8 gap-4 md:my-4 my-2">
+            <Link href={"/projects"} rel="noopener noreferrer" target="_blank">
+              <li className="text-dark-100 font-[500] xl:text-xl md:text-lg text-md hover:text-midnight-teal">
+                Projects
+              </li>
+            </Link>
+            <Link href={"/about"} rel="noopener noreferrer" target="_blank">
+              <li className="text-dark-100 font-[500] xl:text-xl md:text-lg text-md hover:text-midnight-teal">
+                About
+              </li>
+            </Link>
+            <Link href={"/skills"} rel="noopener noreferrer" target="_blank">
+              <li className="text-dark-100 font-[500] xl:text-xl md:text-lg text-md hover:text-midnight-teal">
+                Skills
+              </li>
+            </Link>
+            <Link href={"/contact"} rel="noopener noreferrer" target="_blank">
+              <li className="text-dark-100 font-[500] xl:text-xl md:text-lg text-md hover:text-midnight-teal hover:underline">
+                Contact
+              </li>
+            </Link>
+          </ul>
         </div>
         <div className="w-full h-full flex md:flex-row font-poppins md:justify-between xl:flex-row xl:justify-between flex-col-reverse gap-5 items-center">
           <p className="text-dark-100 font-[400] xl:text-lg text-sm">
